@@ -3,7 +3,5 @@ __pycache__/
 .ipynb_checkpoints/
 ~$*
 .env
-data/processed/*
-!data/processed/.gitkeep
 outputs/*
 !outputs/.gitkeep

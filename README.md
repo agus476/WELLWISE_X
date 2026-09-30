@@ -1,17 +1,19 @@
 # WELLWISE-X
 
-Proyecto de investigación para estudiar decisiones ACT / INVESTIGATE / ABSTAIN en operaciones de pozos con datos del campo Volve.
+Proyecto de Data Science con Volve para predecir producción futura, evaluar cuándo confiar en las predicciones y explorar comportamientos operativos mediante clustering. El alcance vigente incluye EDA, regresión, clasificación de caída futura y clustering; incertidumbre y abstención se evalúan con métricas predictivas. La economía queda como extensión simulada, sin afirmar beneficios causales de intervenciones.
 
-La etapa actual consiste en revisar la calidad de los datos y explorar la producción por pozo. El alcance se ampliará según los resultados del análisis.
+## Estado y alcance
 
-## Organización
+La implementación actual llega hasta **Bronze**: fuentes originales con trazabilidad y notebooks de revisión/exploración. Los modelos pertenecen al plan posterior. Silver y Gold quedan pendientes de diseño y no se implementan ni se crean sus carpetas.
 
-- `data/raw/`: Excel de producción y diccionario originales, sin modificaciones.
-- `data/processed/`: datos derivados que se generen durante el trabajo.
-- `notebooks/01_revision_datos.ipynb`: carga, controles iniciales y reportes automáticos con YData Profiling.
-- `notebooks/02_exploracion.ipynb`: gráficos y exploración por pozo.
-- `docs/`: documento del proyecto y cronograma.
-- `outputs/`: gráficos y tablas exportados.
+- `data/bronze/`: Excel originales, README de la capa y `manifest.json` con tamaños y SHA-256.
+- `notebooks/01_revision_datos.ipynb`: revisión y reportes de calidad.
+- `notebooks/02_exploracion.ipynb`: exploración por pozo.
+- `docs/ALCANCE.md`: alcance, metodología y cronograma revisados; misma propuesta en Word.
+- `docs/WELLWISE-X_Proyecto_y_Cronograma.docx`: documento actualizado.
+- `outputs/`: reportes exploratorios; no constituyen Gold.
+
+Los archivos se trasladaron de `data/raw/` a Bronze sin alterar sus bytes. Se retiró la carpeta vacía `data/processed/`. Antes de crear Silver se acordarán reglas de calidad, calendario y unidades. ACT, si se utiliza, significará aceptar una predicción, nunca recomendar una intervención física.
 
 ## Preparar el entorno
 
@@ -29,21 +31,21 @@ Abrir los notebooks y ejecutar sus celdas en orden. También se pueden abrir en 
 
 El libro contiene `Daily Production Data` y `Monthly Production Data`. La hoja mensual tiene una segunda fila de unidades que se omite al cargar los registros. El diccionario contiene las hojas `Diario` y `Mensual` y debe consultarse antes de interpretar unidades.
 
-- Conservar los originales; guardar cualquier transformación en `data/processed/`.
+- Conservar los originales; no persistir transformaciones hasta definir Silver.
 - Diferenciar producción e inyección y revisar inconsistencias entre `FLOW_KIND` y `WELL_TYPE`.
 - No convertir faltantes en ceros automáticamente ni eliminar valores atípicos sin documentar el criterio.
 - Revisar huecos de calendario antes de construir variables temporales.
 - Las unidades y definiciones pendientes del diccionario siguen pendientes de verificación.
 - Los controles iniciales señalan registros para revisión; no limpian ni excluyen datos.
 
-El objetivo predictivo y las reglas de decisión se definirán después de la exploración. El documento completo está en `docs/WELLWISE-X_Proyecto_y_Cronograma.docx`.
+El objetivo predictivo, horizonte, etiqueta de clasificación y reglas de aceptación se definirán después de la exploración. El alcance vigente está en `docs/WELLWISE-X_Proyecto_y_Cronograma.docx`.
 
 ## Continuidad del trabajo
 
 - [AGENTS.md](AGENTS.md): pautas de trabajo y cuidado de los datos.
 - [Handoff](docs/HANDOFF.md): estado actual, verificaciones y próximos pasos.
 
-Los Excel se encuentran únicamente en `data/raw/`; se retiraron las copias idénticas que habían quedado en la raíz.
+Los Excel se encuentran únicamente en `data/bronze/`; se retiraron las copias idénticas que habían quedado en la raíz.
 
 ## Reportes automáticos
 
