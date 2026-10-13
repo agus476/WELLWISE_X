@@ -4,16 +4,16 @@
 
 ## Estado y alcance
 
-La implementación actual llega hasta **Bronze**: fuentes originales con trazabilidad y notebooks de revisión/exploración. Todavía no hay modelos entrenados ni conclusiones finales del EDA. Silver y Gold quedan pendientes de diseño y no se implementan ni se crean sus carpetas.
+Por ahora hay fuentes originales con trazabilidad y dos notebooks de revisión/exploración. Todavía no hay modelos entrenados ni conclusiones finales del análisis exploratorio. La estructura se ampliará cuando el trabajo lo necesite.
 
-- `data/bronze/`: Excel originales, README de la capa y `manifest.json` con tamaños y SHA-256.
+- `data/raw/`: Excel originales, notas de uso y `manifest.json` con tamaños y SHA-256.
 - `notebooks/01_revision_datos.ipynb`: revisión y reportes de calidad.
 - `notebooks/02_exploracion.ipynb`: exploración por pozo.
 - `docs/ALCANCE.md`: idea vigente, límites, estado y plan de trabajo; misma propuesta en Word.
 - `docs/WELLWISE-X_Proyecto_y_Cronograma.docx`: documento actualizado.
-- `outputs/`: reportes exploratorios; no constituyen Gold.
+- `reports/`: reportes HTML generados por el notebook 01 cuando se ejecuta esa sección; la carpeta se crea entonces y no se versiona.
 
-Los archivos se trasladaron de `data/raw/` a Bronze sin alterar sus bytes. Se retiró la carpeta vacía `data/processed/`. Antes de crear Silver se acordarán reglas de calidad, calendario y unidades. La regla de revisión se refiere a la confiabilidad de un pronóstico; el proyecto no recomienda intervenciones físicas.
+Antes de preparar datos para modelos se acordarán reglas de calidad, calendario y unidades. La regla de revisión se refiere a la confiabilidad de un pronóstico; el proyecto no recomienda intervenciones físicas.
 
 ## Preparar el entorno
 
@@ -31,7 +31,7 @@ Abrir los notebooks y ejecutar sus celdas en orden. También se pueden abrir en 
 
 El libro contiene `Daily Production Data` y `Monthly Production Data`. La hoja mensual tiene una segunda fila de unidades que se omite al cargar los registros. El diccionario contiene las hojas `Diario` y `Mensual` y debe consultarse antes de interpretar unidades.
 
-- Conservar los originales; no persistir transformaciones hasta definir Silver.
+- Conservar los originales; documentar las reglas antes de guardar datos preparados.
 - Diferenciar producción e inyección y revisar inconsistencias entre `FLOW_KIND` y `WELL_TYPE`.
 - No convertir faltantes en ceros automáticamente ni eliminar valores atípicos sin documentar el criterio.
 - Revisar huecos de calendario antes de construir variables temporales.
@@ -45,14 +45,14 @@ El objetivo predictivo, horizonte, etiqueta de clasificación y reglas de revisi
 - [AGENTS.md](AGENTS.md): pautas de trabajo y cuidado de los datos.
 - [Handoff](docs/HANDOFF.md): estado actual, verificaciones y próximos pasos.
 
-Los Excel se encuentran únicamente en `data/bronze/`; se retiraron las copias idénticas que habían quedado en la raíz.
+Los Excel se encuentran únicamente en `data/raw/`; se retiraron las copias idénticas que habían quedado en la raíz.
 
 ## Reportes automáticos
 
 La sección «Reportes automáticos con YData Profiling» del notebook 01 genera:
 
-- `outputs/volve_production_profiling.html`: registros de producción.
-- `outputs/volve_injection_profiling.html`: registros de inyección.
+- `reports/volve_production_profiling.html`: registros de producción.
+- `reports/volve_injection_profiling.html`: registros de inyección.
 
 Actualizar las dependencias con `.\.venv\Scripts\python.exe -m pip install -r requirements.txt` y seleccionar ese entorno como kernel. Ejecutar el notebook y abrir los HTML en el navegador. No se necesita subir los datos a ningún servicio.
 

@@ -23,7 +23,7 @@ La aplicación de esta pregunta a los datos disponibles constituye nuestro enfoq
 
 ## Datos y límites
 
-Usaremos los dos Excel de `data/bronze/`: producción de Volve y diccionario. La hoja diaria tiene 15.634 registros de siete pozos; 9.161 son registros de producción correspondientes a seis pozos. Hay fechas ausentes, períodos con el pozo detenido y variables con cobertura diferente entre pozos. El horizonte de predicción, los pozos finales, la definición de caída y las reglas de tratamiento de esos casos se decidirán después del análisis exploratorio.
+Usaremos los dos Excel de `data/raw/`: producción de Volve y diccionario. La hoja diaria tiene 15.634 registros de siete pozos; 9.161 son registros de producción correspondientes a seis pozos. Hay fechas ausentes, períodos con el pozo detenido y variables con cobertura diferente entre pozos. El horizonte de predicción, los pozos finales, la definición de caída y las reglas de tratamiento de esos casos se decidirán después del análisis exploratorio.
 
 Una fecha faltante no equivale a un día con producción cero. Las variables explicativas deberán estar disponibles en el momento en que se hace el pronóstico. La prueba final usará fechas posteriores a entrenamiento y calibración. En una serie temporal, la cobertura teórica de un intervalo no se da por garantizada: se medirá con datos reservados.
 
@@ -31,9 +31,9 @@ Estos Excel no documentan de forma estructurada acciones de intervención, sus c
 
 ## Estado actual y próximos pasos
 
-**Hecho:** fuentes originales preservadas en Bronze con inventario y controles iniciales; notebooks de revisión y exploración. El segundo notebook permite recorrer un pozo, pero sus conclusiones por pozo todavía deben completarse.
+**Hecho:** fuentes originales preservadas en `data/raw/` con inventario y controles iniciales; notebooks de revisión y exploración. El segundo notebook permite recorrer un pozo, pero sus conclusiones por pozo todavía deben completarse.
 
-**Pendiente:** definir objetivo y horizonte, acordar criterios de calidad y diseñar Silver; preparar variables; entrenar y evaluar regresión y clasificación; hacer clustering; analizar incertidumbre y cobertura; redactar resultados y preparar la presentación. Gold se diseñará después de definir los productos de análisis. Todavía no hay modelos entrenados, una capa Silver ni una capa Gold.
+**Pendiente:** definir objetivo y horizonte, acordar criterios de calidad; preparar datos y variables; entrenar y evaluar regresión y clasificación; hacer clustering; analizar incertidumbre y cobertura; redactar resultados y preparar la presentación. Todavía no hay modelos entrenados ni un conjunto de datos preparados para modelos.
 
 ## Orden de trabajo y entregables
 
@@ -46,4 +46,4 @@ Estos Excel no documentan de forma estructurada acciones de intervención, sus c
 
 El dashboard interactivo y las simulaciones económicas quedan como posibles extensiones. Una demostración clara con gráficos de casos reales alcanza para comunicar el resultado principal. El orden se ajustará a las fechas de preentrega de la comisión.
 
-**Siguiente decisión:** terminar el análisis exploratorio de los pozos candidatos y definir el objetivo, el horizonte y las reglas de calidad antes de crear Silver. El repositorio refleja únicamente el trabajo efectivamente realizado.
+**Siguiente decisión:** terminar el análisis exploratorio de los pozos candidatos y definir el objetivo, el horizonte y las reglas de calidad antes de guardar datos preparados. El repositorio refleja únicamente el trabajo efectivamente realizado.

@@ -1,23 +1,21 @@
 {
-  "layer": "bronze",
   "registered_on": "2026-09-30",
   "policy": "Originales sin transformación; fecha de registro, no fecha de descarga original.",
   "files": [
     {
-      "path": "data/bronze/Diccionario_Volve.xlsx",
-      "previous_path": "data/raw/Diccionario_Volve.xlsx",
+      "path": "data/raw/Diccionario_Volve.xlsx",
       "source": "Archivo previamente versionado en el repositorio WELLWISE_X; procedencia original detallada pendiente de verificación.",
       "role": "Diccionario de referencia",
       "bytes": 8835,
       "sha256": "e05f3a2e5bb62e2cc970725b8d8baf30c12c3b310cde8d5c98e3c5b2505d8b84"
     },
     {
-      "path": "data/bronze/Volve production data.xlsx",
-      "previous_path": "data/raw/Volve production data.xlsx",
+      "path": "data/raw/Volve production data.xlsx",
       "source": "Archivo previamente versionado en el repositorio WELLWISE_X; procedencia original detallada pendiente de verificación.",
       "role": "Producción diaria y mensual Volve",
       "bytes": 2342595,
       "sha256": "514d4e38763e09be7fbad12313429909b9799b1a6ec999bf5f36e0df1b6c9cae"
     }
-  ]
+  ],
+  "description": "Inventario de los Excel originales, sin transformaciones."
 }

@@ -10,15 +10,14 @@ La etapa actual es revisión y exploración de datos. El usuario eligió un esqu
 
 1. Leer `README.md` y `docs/HANDOFF.md`.
 2. Revisar el estado real de los archivos; el handoff describe una sesión anterior y puede quedar desactualizado.
-3. Consultar `docs/WELLWISE-X_Proyecto_y_Cronograma.docx` cuando se necesite contexto metodológico y `data/bronze/Diccionario_Volve.xlsx` para interpretar variables.
+3. Consultar `docs/WELLWISE-X_Proyecto_y_Cronograma.docx` cuando se necesite contexto metodológico y `data/raw/Diccionario_Volve.xlsx` para interpretar variables.
 
 ## Organización
 
-- `data/bronze/`: fuentes originales. No sobrescribir ni limpiar estos archivos.
-- Bronze conserva los Excel originales sin transformación, con inventario SHA-256. Silver y Gold quedan pendientes: no crear carpetas, esquemas, transformaciones ni datasets de esas capas hasta definirlos con el usuario.
+- `data/raw/`: fuentes originales sin transformación, con inventario SHA-256. No sobrescribir ni limpiar estos archivos.
 - `notebooks/`: análisis en orden numérico, con celdas reproducibles y explicaciones en español.
 - `docs/`: contexto y continuidad del proyecto.
-- `outputs/`: tablas y gráficos exportados.
+- `reports/`: reportes HTML generados bajo demanda; no versionarlos ni crear la carpeta vacía por anticipación.
 - `requirements.txt`: dependencias necesarias. No añadir herramientas por anticipación.
 
 Usar rutas relativas a la raíz del proyecto y permitir ejecutar notebooks desde la raíz o desde `notebooks/`. No dejar copias de datasets en la raíz. Los archivos temporales de Excel (`~$*`) no son fuentes de datos; no manipularlos mientras la aplicación los esté usando.
