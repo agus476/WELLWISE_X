@@ -1,99 +1,49 @@
-# WELLWISE X alcance y cronograma
+# WELLWISE X alcance y plan de trabajo
 
-## Propósito
+Revisión del 13 de octubre de 2026. Este documento define la idea vigente para el proyecto final de EnergIA Digital Data Science. El trabajo todavía está en exploración: las hipótesis y las técnicas previstas no son resultados obtenidos.
 
-WELLWISE-X estudiará la predicción de producción futura de petróleo y cuándo una predicción ofrece evidencia suficiente para ser utilizada como apoyo analítico. El proyecto incluye exploración, un modelo supervisado, evaluación de incertidumbre y clustering de comportamientos operativos. Esta revisión del 30 de septiembre de 2026 sustituye el alcance anterior; su versión histórica queda en Git.
+## La idea en una frase
 
-## Pregunta de trabajo
+Queremos **predecir la producción futura de petróleo de un pozo y comprobar si podemos reconocer, antes de ver el resultado, cuándo conviene desconfiar de esa predicción**.
 
-¿Puede una regla de aceptación basada en incertidumbre y calidad de datos reducir el error de las predicciones aceptadas, y qué proporción de casos debe dejar sin respuesta para conseguirlo? El resultado puede ser negativo: no se presupone una mejora.
+Un pronóstico siempre tiene errores. Para una persona que lo consulta, también importa saber cuándo la información disponible es insuficiente. Por eso compararemos el desempeño de un modelo que entrega todos sus pronósticos con el de una regla que deriva los casos de mayor incertidumbre a revisión. La pregunta es si esa regla reduce el error en los casos aceptados y cuánto se pierde en cobertura: qué proporción de pronósticos todavía puede utilizarse.
 
-## Alcance comprometido
+## Qué vamos a hacer
 
-Revisión y EDA por pozo; definición de una variable objetivo futura y su horizonte; comparación de persistencia y un modelo supervisado; intervalos de predicción y evaluación temporal; análisis del error según la proporción de predicciones aceptadas; clustering de estados o ventanas operativas con interpretación de los grupos; notebooks reproducibles e informe de resultados.
+1. **Explorar los datos.** Revisar fechas, pozos, paradas, faltantes, variables operativas y posibles problemas de medición. Elegir pozos y definir exactamente qué fecha y qué producción se quiere predecir.
+2. **Pronosticar y comparar.** Crear una referencia simple basada en la producción reciente y un modelo de regresión. Evaluarlos en períodos posteriores a los usados para entrenar, por pozo y en conjunto.
+3. **Evaluar la confianza.** Construir y comprobar intervalos o una medida de incertidumbre. Medir si los casos señalados como inciertos concentran errores más altos. Mostrar juntos el error de los pronósticos aceptados y la proporción que se acepta.
+4. **Cumplir los otros componentes del curso.** Definir una etiqueta reproducible de caída futura de producción para un modelo de clasificación. Agrupar observaciones o ventanas mediante clustering y describir qué representan los grupos. Comprobar si ayudan a entender dónde falla el pronóstico, sin suponer de antemano que lo harán.
 
-## Extensiones
+## Qué haría valioso el resultado
 
-Detección fuera de dominio como señal adicional, dashboard Streamlit y escenarios económicos simulados quedan sujetos al tiempo y a los resultados. Value of Information, Policy Value, regret económico y recomendaciones de intervenciones no forman parte del compromiso principal. No se promete demostrar ahorro, causalidad ni optimización real de pozos.
+La comparación principal es: **pronosticar siempre frente a pronosticar con una regla de revisión**. Si la segunda alternativa reduce el error sólo porque deja casi todos los casos sin respuesta, no será una mejora útil. Mostraremos la relación completa entre error y cobertura, ejemplos reales de aciertos y fallos, y los límites del método. También es válido concluir que la regla no ayuda.
 
-## Relación con la cursada
+La aplicación de esta pregunta a los datos disponibles constituye nuestro enfoque de investigación. No afirmamos que pronosticar producción, crear intervalos o permitir abstención sean técnicas inéditas.
 
-El EDA cubre la segunda preentrega; la regresión y una clasificación con etiqueta temporal explícita cubren el trabajo supervisado; el clustering cubre el no supervisado. Para clasificación, se propone evaluar una caída futura de producción, con ventana y umbral definidos antes del test, sin interpretarla como falla confirmada. La consigna mezcla referencias a regresión y clasificación: se contempla ambas y se confirmará su exigencia con la tutora.
+## Datos y límites
 
-# Datos y evaluación
+Usaremos los dos Excel de `data/bronze/`: producción de Volve y diccionario. La hoja diaria tiene 15.634 registros de siete pozos; 9.161 son registros de producción correspondientes a seis pozos. Hay fechas ausentes, períodos con el pozo detenido y variables con cobertura diferente entre pozos. El horizonte de predicción, los pozos finales, la definición de caída y las reglas de tratamiento de esos casos se decidirán después del análisis exploratorio.
 
-## Disponibilidad
+Una fecha faltante no equivale a un día con producción cero. Las variables explicativas deberán estar disponibles en el momento en que se hace el pronóstico. La prueba final usará fechas posteriores a entrenamiento y calibración. En una serie temporal, la cobertura teórica de un intervalo no se da por garantizada: se medirá con datos reservados.
 
-El Excel contiene 15.634 registros diarios de siete pozos: 9.161 de producción en seis pozos y 6.473 de inyección. La hoja mensual contiene 526 registros, excluyendo la fila de unidades. La cobertura y calidad varían por pozo. Estos recuentos describen registros, no observaciones estadísticamente independientes.
+Estos Excel no documentan de forma estructurada acciones de intervención, sus costos ni sus efectos causales. El proyecto **no recomendará cambios físicos en los pozos ni afirmará ahorro económico real**. La clasificación de una caída de producción no significa diagnosticar una falla mecánica.
 
-## Limitaciones
+## Estado actual y próximos pasos
 
-Existen faltantes, días ausentes, paradas e inconsistencias operativas que requieren revisión. La presión anular y otras variables no tienen igual disponibilidad en todos los pozos. No hay en estos archivos un catálogo estructurado de acciones, costos y efectos causales; un cambio observado de producción no prueba el beneficio de una intervención. Las unidades pendientes del diccionario siguen pendientes.
+**Hecho:** fuentes originales preservadas en Bronze con inventario y controles iniciales; notebooks de revisión y exploración. El segundo notebook permite recorrer un pozo, pero sus conclusiones por pozo todavía deben completarse.
 
-## Objetivo predictivo
+**Pendiente:** definir objetivo y horizonte, acordar criterios de calidad y diseñar Silver; preparar variables; entrenar y evaluar regresión y clasificación; hacer clustering; analizar incertidumbre y cobertura; redactar resultados y preparar la presentación. Gold se diseñará después de definir los productos de análisis. Todavía no hay modelos entrenados, una capa Silver ni una capa Gold.
 
-Se definirá tras el EDA si el objetivo es volumen futuro diario o agregado en una ventana. Deben quedar escritos el horizonte, el instante de predicción, las variables disponibles entonces, los pozos elegidos y el tratamiento de huecos de calendario. No se usará el siguiente registro como sinónimo del siguiente día ni variables futuras para explicar el objetivo.
+## Orden de trabajo y entregables
 
-## Evaluación temporal
+| Etapa | Resultado esperado |
+| --- | --- |
+| Exploración y decisiones de datos | Hallazgos por pozo, objetivo y horizonte escritos, reglas de calidad justificadas. |
+| Modelos supervisados | Referencia simple, regresión y clasificación, con evaluación temporal y control de sobreajuste. |
+| Clustering y confianza | Grupos interpretados, intervalos evaluados y comparación entre error y cobertura. |
+| Cierre | Notebooks reproducibles, README con resultados y límites, y presentación oral de hasta 15 minutos. |
 
-Separar cronológicamente entrenamiento, validación o calibración y prueba final. Ajustar transformaciones, modelos y umbrales sin consultar el test; evitar solapamiento de ventanas objetivo entre cortes. Comparar con persistencia mediante MAE y RMSE, por pozo y período. Para clasificación, revisar balance, precisión, recall y F1. Las métricas no se fijan de antemano como resultados esperados.
+El dashboard interactivo y las simulaciones económicas quedan como posibles extensiones. Una demostración clara con gráficos de casos reales alcanza para comunicar el resultado principal. El orden se ajustará a las fechas de preentrega de la comisión.
 
-## Confianza y clustering
-
-Evaluar cobertura empírica y ancho de intervalos; la dependencia temporal impide dar por garantizada la cobertura nominal. Comparar error frente a proporción de predicciones aceptadas para distintos umbrales. Clustering agrupará estados o ventanas operativas, con escalado y selección de variables documentados; revisar separación, estabilidad e interpretación, sin llamar falla a un grupo por su sola pertenencia.
-
-## Estados de la propuesta
-
-Si se conservan las etiquetas originales, ACT significará aceptar la predicción para consulta analítica; INVESTIGATE, derivar el caso a revisión humana; ABSTAIN, no emitir una predicción utilizable. Ninguno recomienda modificar equipos. Las reglas y umbrales están pendientes; INVESTIGATE no implica demostrar que una medición adicional sea rentable.
-
-# Arquitectura medallion hasta Bronze
-
-## Implementación actual
-
-Bronze es la capa de conservación de las fuentes originales en data/bronze/. Contiene el Excel de producción y el diccionario, sin cambios de contenido. Un manifiesto registra ruta, procedencia conocida, tamaño y SHA-256 para comprobar integridad. El traslado reemplaza la antigua ruta data/raw/.
-
-## Recorrido de trabajo
-
-Los notebooks 01_revision_datos y 02_exploracion leen Bronze y mantienen sus controles y análisis en memoria. Los reportes exploratorios se guardan en outputs/. El repositorio conserva notebooks, documentación y dependencias existentes. No se incorpora infraestructura adicional para esta etapa.
-
-## Límites de Bronze
-
-No se imputan faltantes, eliminan filas, corrigen unidades ni crean variables de entrenamiento en los archivos de Bronze. La lectura mensual puede omitir la fila de unidades dentro del DataFrame, preservando el Excel íntegro. Un reporte de calidad no equivale a un dataset limpio.
-
-## Silver y Gold pendientes
-
-Estas capas quedan únicamente como etapas futuras nombradas. No se crean carpetas, esquemas, pipelines, tablas, features ni resultados para ellas. Antes de diseñar Silver se deben acordar criterios de limpieza, unidades, claves, calendario y selección de pozos. Gold se definirá después de acordar el objetivo predictivo, las variables y los productos analíticos.
-
-## Estado y siguiente decisión
-
-La entrega actual implementa organización y trazabilidad hasta Bronze, y actualiza el alcance. El entrenamiento, los intervalos, la clasificación y el clustering pertenecen al plan posterior. El siguiente paso es revisar los hallazgos del EDA y acordar las decisiones de calidad necesarias para Silver.
-
-# Cronograma y entregables
-
-## Plan de ocho semanas
-
-El plan es relativo y se ajustará a las fechas de la comisión. No implica que las etapas ya estén completadas.
-
-## Semanas 1 y 2
-
-Consolidar Bronze y el inventario; revisar EDA, diccionario, unidades, huecos y calidad por pozo. Definir objetivo, horizonte y criterios de selección. Acordar el diseño de Silver antes de implementarlo.
-
-## Semanas 3 y 4
-
-Preparar los datos aprobados y variables temporales sin fuga de información; construir persistencia y regresión. Incorporar una clasificación de caída futura con etiqueta y umbral explícitos. Evaluar temporalmente y controlar overfitting.
-
-## Semanas 5 y 6
-
-Construir y evaluar intervalos; comparar error y cobertura de las predicciones aceptadas. Desarrollar clustering de comportamientos operativos, interpretar grupos y revisar estabilidad. Priorizar estos resultados sobre nuevas herramientas.
-
-## Semanas 7 y 8
-
-Consolidar notebooks y resultados, límites y conclusiones. Completar README, informe y presentación de hasta 15 minutos. Sólo si el núcleo está terminado, evaluar un dashboard sencillo u otra extensión.
-
-## Criterios de finalización
-
-Las fuentes deben ser trazables; la preparación debe poder reproducirse; los modelos deben compararse con referencias temporales y reportar resultados por pozo. El clustering debe tener una interpretación sustentada. Una abstención que no mejore el error es un resultado válido y debe informarse.
-
-## Fuentes y continuidad
-
-Fuentes de esta revisión: Excel de producción Volve, diccionario del repositorio, documento original del proyecto y guía EnergIA Digital Data Science. La revisión bibliográfica y cualquier afirmación de originalidad requieren verificación posterior. Esta versión no sostiene una novedad mundial ni una puntuación de originalidad. La guía del curso y los datos originales se conservan sin modificaciones.
+**Siguiente decisión:** terminar el análisis exploratorio de los pozos candidatos y definir el objetivo, el horizonte y las reglas de calidad antes de crear Silver. El repositorio refleja únicamente el trabajo efectivamente realizado.
