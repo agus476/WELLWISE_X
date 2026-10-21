@@ -7,11 +7,11 @@
 Por ahora hay fuentes originales con trazabilidad y dos notebooks de revisión/exploración. Todavía no hay modelos entrenados ni conclusiones finales del análisis exploratorio. La estructura se ampliará cuando el trabajo lo necesite.
 
 - `data/raw/`: Excel originales, notas de uso y `manifest.json` con tamaños y SHA-256.
-- `notebooks/01_revision_datos.ipynb`: revisión y reportes de calidad.
-- `notebooks/02_exploracion.ipynb`: exploración por pozo.
+- `notebooks/01_revision_datos.ipynb`: revisión, vistas simplificadas, mapa de cobertura de los pozos y controles de calidad.
+- `notebooks/02_exploracion.ipynb`: calendario de registros, conteo de días con 0 horas y evolución de un pozo, con gráficos interactivos de Plotly Express y guías de lectura en español.
+- `reports/02_exploracion_interactiva.html`: copia local de los gráficos, generada al ejecutar la última celda del notebook 02; no se versiona.
 - `docs/ALCANCE.md`: idea vigente, límites, estado y plan de trabajo; misma propuesta en Word.
 - `docs/WELLWISE-X_Proyecto_y_Cronograma.docx`: documento actualizado.
-- `reports/`: reportes HTML generados por el notebook 01 cuando se ejecuta esa sección; la carpeta se crea entonces y no se versiona.
 
 Antes de preparar datos para modelos se acordarán reglas de calidad, calendario y unidades. La regla de revisión se refiere a la confiabilidad de un pronóstico; el proyecto no recomienda intervenciones físicas.
 
@@ -26,6 +26,10 @@ python -m venv .venv
 ```
 
 Abrir los notebooks y ejecutar sus celdas en orden. También se pueden abrir en VS Code seleccionando el entorno `.venv` como kernel.
+
+Si el entorno ya existía, actualizar las dependencias con `.\.venv\Scripts\python.exe -m pip install -r requirements.txt` para disponer de Plotly. El HTML generado se abre en el navegador sin conexión a Internet.
+
+Las tablas, estadísticas y gráficos se presentan en español, incluidos los controles de Plotly. El cuaderno 01 incluye equivalencias con los nombres originales del Excel; estos nombres se conservan en el código para mantener la trazabilidad.
 
 ## Datos y criterios iniciales
 
@@ -46,16 +50,3 @@ El objetivo predictivo, horizonte, etiqueta de clasificación y reglas de revisi
 - [Handoff](docs/HANDOFF.md): estado actual, verificaciones y próximos pasos.
 
 Los Excel se encuentran únicamente en `data/raw/`; se retiraron las copias idénticas que habían quedado en la raíz.
-
-## Reportes automáticos
-
-La sección «Reportes automáticos con YData Profiling» del notebook 01 genera:
-
-- `reports/volve_production_profiling.html`: registros de producción.
-- `reports/volve_injection_profiling.html`: registros de inyección.
-
-Actualizar las dependencias con `.\.venv\Scripts\python.exe -m pip install -r requirements.txt` y seleccionar ese entorno como kernel. Ejecutar el notebook y abrir los HTML en el navegador. No se necesita subir los datos a ningún servicio.
-
-Los reportes complementan los controles específicos del notebook 01 y la exploración temporal por pozo del notebook 02. No realizan limpieza automática. Los HTML se regeneran al ejecutar la sección y quedan fuera del control de versiones mediante `.gitignore`.
-
-El notebook 01 sigue el recorrido **carga y contexto → profiling → validaciones específicas → síntesis de hallazgos**. Una guía vincula las señales de los reportes con cada control; la tabla final calcula evidencia y próximos pasos para continuar en el notebook 02.
