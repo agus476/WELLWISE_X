@@ -3,3 +3,5 @@ openpyxl
 plotly
 jupyterlab
 ipykernel
+numpy
+scikit-learn>=1.2,<2

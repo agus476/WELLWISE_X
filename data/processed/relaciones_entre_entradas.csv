@@ -1,0 +1,551 @@
+Pozo,Muestra,Codigo_A,Codigo_B,Medición A,Medición B,Pares,Días de la muestra,Cobertura (%),Desde,Hasta,Spearman,Revisar parecido,Estado
+15/9-F-1 C,Todos los días,ON_STREAM_HRS,AVG_DOWNHOLE_PRESSURE,Horas,Presión de fondo,742,746,99.46380697050938,2014-04-07,2016-04-21,-0.6803699480355769,False,Calculado
+15/9-F-1 C,Todos los días,ON_STREAM_HRS,AVG_DOWNHOLE_TEMPERATURE,Horas,Temperatura de fondo,742,746,99.46380697050938,2014-04-07,2016-04-21,0.8669463403634139,True,Calculado
+15/9-F-1 C,Todos los días,ON_STREAM_HRS,AVG_DP_TUBING,Horas,Diferencia presión tubería,742,746,99.46380697050938,2014-04-07,2016-04-21,0.003809715697156486,False,Calculado
+15/9-F-1 C,Todos los días,ON_STREAM_HRS,AVG_ANNULUS_PRESS,Horas,Presión entre tubos,17,746,2.278820375335121,2014-04-07,2016-04-21,,False,Pocos datos o medición constante
+15/9-F-1 C,Todos los días,ON_STREAM_HRS,AVG_CHOKE_SIZE_P,Horas,Apertura válvula (%),745,746,99.86595174262735,2014-04-07,2016-04-21,0.8818513977928719,True,Calculado
+15/9-F-1 C,Todos los días,ON_STREAM_HRS,AVG_WHP_P,Horas,Presión en cabeza,745,746,99.86595174262735,2014-04-07,2016-04-21,-0.32327404238481433,False,Calculado
+15/9-F-1 C,Todos los días,ON_STREAM_HRS,AVG_WHT_P,Horas,Temperatura en cabeza,745,746,99.86595174262735,2014-04-07,2016-04-21,0.8551208648688368,True,Calculado
+15/9-F-1 C,Todos los días,ON_STREAM_HRS,DP_CHOKE_SIZE,Horas,Diferencia presión válvula,745,746,99.86595174262735,2014-04-07,2016-04-21,-0.47833285125023234,False,Calculado
+15/9-F-1 C,Todos los días,ON_STREAM_HRS,BORE_GAS_VOL,Horas,Gas producido,745,746,99.86595174262735,2014-04-07,2016-04-21,0.9026986081997317,True,Calculado
+15/9-F-1 C,Todos los días,ON_STREAM_HRS,BORE_WAT_VOL,Horas,Agua producida,745,746,99.86595174262735,2014-04-07,2016-04-21,0.8261761782299921,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_DOWNHOLE_TEMPERATURE,Presión de fondo,Temperatura de fondo,743,746,99.59785522788204,2014-04-07,2016-04-21,-0.8030177586124002,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_DP_TUBING,Presión de fondo,Diferencia presión tubería,743,746,99.59785522788204,2014-04-07,2016-04-21,0.3544549042786666,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_ANNULUS_PRESS,Presión de fondo,Presión entre tubos,14,746,1.876675603217158,2014-04-07,2016-04-21,,False,Pocos datos o medición constante
+15/9-F-1 C,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_CHOKE_SIZE_P,Presión de fondo,Apertura válvula (%),743,746,99.59785522788204,2014-04-07,2016-04-21,-0.5460710609345414,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_WHP_P,Presión de fondo,Presión en cabeza,743,746,99.59785522788204,2014-04-07,2016-04-21,0.2400902566914823,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_WHT_P,Presión de fondo,Temperatura en cabeza,743,746,99.59785522788204,2014-04-07,2016-04-21,-0.5527787736415309,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DOWNHOLE_PRESSURE,DP_CHOKE_SIZE,Presión de fondo,Diferencia presión válvula,743,746,99.59785522788204,2014-04-07,2016-04-21,0.45652694623041434,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DOWNHOLE_PRESSURE,BORE_GAS_VOL,Presión de fondo,Gas producido,743,746,99.59785522788204,2014-04-07,2016-04-21,-0.714979351645849,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DOWNHOLE_PRESSURE,BORE_WAT_VOL,Presión de fondo,Agua producida,743,746,99.59785522788204,2014-04-07,2016-04-21,-0.46758872046633726,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_DP_TUBING,Temperatura de fondo,Diferencia presión tubería,743,746,99.59785522788204,2014-04-07,2016-04-21,-0.018535302009982654,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_ANNULUS_PRESS,Temperatura de fondo,Presión entre tubos,14,746,1.876675603217158,2014-04-07,2016-04-21,,False,Pocos datos o medición constante
+15/9-F-1 C,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_CHOKE_SIZE_P,Temperatura de fondo,Apertura válvula (%),743,746,99.59785522788204,2014-04-07,2016-04-21,0.8017289668366782,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_WHP_P,Temperatura de fondo,Presión en cabeza,743,746,99.59785522788204,2014-04-07,2016-04-21,-0.364844052343076,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_WHT_P,Temperatura de fondo,Temperatura en cabeza,743,746,99.59785522788204,2014-04-07,2016-04-21,0.7792469605359353,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DOWNHOLE_TEMPERATURE,DP_CHOKE_SIZE,Temperatura de fondo,Diferencia presión válvula,743,746,99.59785522788204,2014-04-07,2016-04-21,-0.5778056214111283,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DOWNHOLE_TEMPERATURE,BORE_GAS_VOL,Temperatura de fondo,Gas producido,743,746,99.59785522788204,2014-04-07,2016-04-21,0.7608861788195195,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DOWNHOLE_TEMPERATURE,BORE_WAT_VOL,Temperatura de fondo,Agua producida,743,746,99.59785522788204,2014-04-07,2016-04-21,0.7693445241838993,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DP_TUBING,AVG_ANNULUS_PRESS,Diferencia presión tubería,Presión entre tubos,14,746,1.876675603217158,2014-04-07,2016-04-21,,False,Pocos datos o medición constante
+15/9-F-1 C,Todos los días,AVG_DP_TUBING,AVG_CHOKE_SIZE_P,Diferencia presión tubería,Apertura válvula (%),743,746,99.59785522788204,2014-04-07,2016-04-21,0.2660432702213561,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DP_TUBING,AVG_WHP_P,Diferencia presión tubería,Presión en cabeza,743,746,99.59785522788204,2014-04-07,2016-04-21,-0.7326572434077259,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DP_TUBING,AVG_WHT_P,Diferencia presión tubería,Temperatura en cabeza,743,746,99.59785522788204,2014-04-07,2016-04-21,0.12422878035104042,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DP_TUBING,DP_CHOKE_SIZE,Diferencia presión tubería,Diferencia presión válvula,743,746,99.59785522788204,2014-04-07,2016-04-21,-0.5579520559890594,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DP_TUBING,BORE_GAS_VOL,Diferencia presión tubería,Gas producido,743,746,99.59785522788204,2014-04-07,2016-04-21,-0.22771656437215532,False,Calculado
+15/9-F-1 C,Todos los días,AVG_DP_TUBING,BORE_WAT_VOL,Diferencia presión tubería,Agua producida,743,746,99.59785522788204,2014-04-07,2016-04-21,0.32436064910825396,False,Calculado
+15/9-F-1 C,Todos los días,AVG_ANNULUS_PRESS,AVG_CHOKE_SIZE_P,Presión entre tubos,Apertura válvula (%),17,746,2.278820375335121,2014-04-07,2016-04-21,,False,Pocos datos o medición constante
+15/9-F-1 C,Todos los días,AVG_ANNULUS_PRESS,AVG_WHP_P,Presión entre tubos,Presión en cabeza,17,746,2.278820375335121,2014-04-07,2016-04-21,,False,Pocos datos o medición constante
+15/9-F-1 C,Todos los días,AVG_ANNULUS_PRESS,AVG_WHT_P,Presión entre tubos,Temperatura en cabeza,17,746,2.278820375335121,2014-04-07,2016-04-21,,False,Pocos datos o medición constante
+15/9-F-1 C,Todos los días,AVG_ANNULUS_PRESS,DP_CHOKE_SIZE,Presión entre tubos,Diferencia presión válvula,17,746,2.278820375335121,2014-04-07,2016-04-21,,False,Pocos datos o medición constante
+15/9-F-1 C,Todos los días,AVG_ANNULUS_PRESS,BORE_GAS_VOL,Presión entre tubos,Gas producido,17,746,2.278820375335121,2014-04-07,2016-04-21,,False,Pocos datos o medición constante
+15/9-F-1 C,Todos los días,AVG_ANNULUS_PRESS,BORE_WAT_VOL,Presión entre tubos,Agua producida,17,746,2.278820375335121,2014-04-07,2016-04-21,,False,Pocos datos o medición constante
+15/9-F-1 C,Todos los días,AVG_CHOKE_SIZE_P,AVG_WHP_P,Apertura válvula (%),Presión en cabeza,746,746,100.0,2014-04-07,2016-04-21,-0.5014486388197128,False,Calculado
+15/9-F-1 C,Todos los días,AVG_CHOKE_SIZE_P,AVG_WHT_P,Apertura válvula (%),Temperatura en cabeza,746,746,100.0,2014-04-07,2016-04-21,0.880000131658938,True,Calculado
+15/9-F-1 C,Todos los días,AVG_CHOKE_SIZE_P,DP_CHOKE_SIZE,Apertura válvula (%),Diferencia presión válvula,746,746,100.0,2014-04-07,2016-04-21,-0.6295835343987982,False,Calculado
+15/9-F-1 C,Todos los días,AVG_CHOKE_SIZE_P,BORE_GAS_VOL,Apertura válvula (%),Gas producido,746,746,100.0,2014-04-07,2016-04-21,0.7257023140953066,False,Calculado
+15/9-F-1 C,Todos los días,AVG_CHOKE_SIZE_P,BORE_WAT_VOL,Apertura válvula (%),Agua producida,746,746,100.0,2014-04-07,2016-04-21,0.901085231298635,True,Calculado
+15/9-F-1 C,Todos los días,AVG_WHP_P,AVG_WHT_P,Presión en cabeza,Temperatura en cabeza,746,746,100.0,2014-04-07,2016-04-21,-0.36482305532553055,False,Calculado
+15/9-F-1 C,Todos los días,AVG_WHP_P,DP_CHOKE_SIZE,Presión en cabeza,Diferencia presión válvula,746,746,100.0,2014-04-07,2016-04-21,0.8883395435831145,True,Calculado
+15/9-F-1 C,Todos los días,AVG_WHP_P,BORE_GAS_VOL,Presión en cabeza,Gas producido,746,746,100.0,2014-04-07,2016-04-21,-0.14714020578540762,False,Calculado
+15/9-F-1 C,Todos los días,AVG_WHP_P,BORE_WAT_VOL,Presión en cabeza,Agua producida,746,746,100.0,2014-04-07,2016-04-21,-0.4824300594907016,False,Calculado
+15/9-F-1 C,Todos los días,AVG_WHT_P,DP_CHOKE_SIZE,Temperatura en cabeza,Diferencia presión válvula,746,746,100.0,2014-04-07,2016-04-21,-0.49609730407080166,False,Calculado
+15/9-F-1 C,Todos los días,AVG_WHT_P,BORE_GAS_VOL,Temperatura en cabeza,Gas producido,746,746,100.0,2014-04-07,2016-04-21,0.7317712644266917,False,Calculado
+15/9-F-1 C,Todos los días,AVG_WHT_P,BORE_WAT_VOL,Temperatura en cabeza,Agua producida,746,746,100.0,2014-04-07,2016-04-21,0.8661791965565375,True,Calculado
+15/9-F-1 C,Todos los días,DP_CHOKE_SIZE,BORE_GAS_VOL,Diferencia presión válvula,Gas producido,746,746,100.0,2014-04-07,2016-04-21,-0.3116927021096735,False,Calculado
+15/9-F-1 C,Todos los días,DP_CHOKE_SIZE,BORE_WAT_VOL,Diferencia presión válvula,Agua producida,746,746,100.0,2014-04-07,2016-04-21,-0.5823120461658189,False,Calculado
+15/9-F-1 C,Todos los días,BORE_GAS_VOL,BORE_WAT_VOL,Gas producido,Agua producida,746,746,100.0,2014-04-07,2016-04-21,0.6307624723870222,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_DOWNHOLE_PRESSURE,Horas,Presión de fondo,437,437,100.0,2014-04-21,2016-04-06,-0.14794010512777847,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_DOWNHOLE_TEMPERATURE,Horas,Temperatura de fondo,437,437,100.0,2014-04-21,2016-04-06,0.4018057480376341,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_DP_TUBING,Horas,Diferencia presión tubería,437,437,100.0,2014-04-21,2016-04-06,-0.19266742980183585,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_ANNULUS_PRESS,Horas,Presión entre tubos,2,437,0.4576659038901602,2014-04-21,2014-04-22,,False,Pocos datos o medición constante
+15/9-F-1 C,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_CHOKE_SIZE_P,Horas,Apertura válvula (%),437,437,100.0,2014-04-21,2016-04-06,0.46402903430260045,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_WHP_P,Horas,Presión en cabeza,437,437,100.0,2014-04-21,2016-04-06,0.07318161762732205,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_WHT_P,Horas,Temperatura en cabeza,437,437,100.0,2014-04-21,2016-04-06,0.31325543785451027,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,ON_STREAM_HRS,DP_CHOKE_SIZE,Horas,Diferencia presión válvula,437,437,100.0,2014-04-21,2016-04-06,-0.003685390230635366,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,ON_STREAM_HRS,BORE_GAS_VOL,Horas,Gas producido,437,437,100.0,2014-04-21,2016-04-06,0.4425130799890668,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,ON_STREAM_HRS,BORE_WAT_VOL,Horas,Agua producida,437,437,100.0,2014-04-21,2016-04-06,0.25660012596944065,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_DOWNHOLE_TEMPERATURE,Presión de fondo,Temperatura de fondo,437,437,100.0,2014-04-21,2016-04-06,-0.4987991802618658,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_DP_TUBING,Presión de fondo,Diferencia presión tubería,437,437,100.0,2014-04-21,2016-04-06,0.7045025779303405,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_ANNULUS_PRESS,Presión de fondo,Presión entre tubos,2,437,0.4576659038901602,2014-04-21,2014-04-22,,False,Pocos datos o medición constante
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_CHOKE_SIZE_P,Presión de fondo,Apertura válvula (%),437,437,100.0,2014-04-21,2016-04-06,0.13322571346126394,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_WHP_P,Presión de fondo,Presión en cabeza,437,437,100.0,2014-04-21,2016-04-06,-0.11001858387533928,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_WHT_P,Presión de fondo,Temperatura en cabeza,437,437,100.0,2014-04-21,2016-04-06,0.1337232342730145,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,DP_CHOKE_SIZE,Presión de fondo,Diferencia presión válvula,437,437,100.0,2014-04-21,2016-04-06,0.10869266376932275,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,BORE_GAS_VOL,Presión de fondo,Gas producido,437,437,100.0,2014-04-21,2016-04-06,-0.42748672925906134,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,BORE_WAT_VOL,Presión de fondo,Agua producida,437,437,100.0,2014-04-21,2016-04-06,0.36816660907968285,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_DP_TUBING,Temperatura de fondo,Diferencia presión tubería,437,437,100.0,2014-04-21,2016-04-06,-0.144609266975113,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_ANNULUS_PRESS,Temperatura de fondo,Presión entre tubos,2,437,0.4576659038901602,2014-04-21,2014-04-22,,False,Pocos datos o medición constante
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_CHOKE_SIZE_P,Temperatura de fondo,Apertura válvula (%),437,437,100.0,2014-04-21,2016-04-06,0.36438251480722933,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_WHP_P,Temperatura de fondo,Presión en cabeza,437,437,100.0,2014-04-21,2016-04-06,-0.17920181939072977,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_WHT_P,Temperatura de fondo,Temperatura en cabeza,437,437,100.0,2014-04-21,2016-04-06,0.25892540797099334,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,DP_CHOKE_SIZE,Temperatura de fondo,Diferencia presión válvula,437,437,100.0,2014-04-21,2016-04-06,-0.44412312982139696,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,BORE_GAS_VOL,Temperatura de fondo,Gas producido,437,437,100.0,2014-04-21,2016-04-06,0.06688301902881623,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,BORE_WAT_VOL,Temperatura de fondo,Agua producida,437,437,100.0,2014-04-21,2016-04-06,0.21338391200623624,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_ANNULUS_PRESS,Diferencia presión tubería,Presión entre tubos,2,437,0.4576659038901602,2014-04-21,2014-04-22,,False,Pocos datos o medición constante
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_CHOKE_SIZE_P,Diferencia presión tubería,Apertura válvula (%),437,437,100.0,2014-04-21,2016-04-06,0.47598642632201016,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_WHP_P,Diferencia presión tubería,Presión en cabeza,437,437,100.0,2014-04-21,2016-04-06,-0.7099641436462818,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_WHT_P,Diferencia presión tubería,Temperatura en cabeza,437,437,100.0,2014-04-21,2016-04-06,0.3881575390370665,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DP_TUBING,DP_CHOKE_SIZE,Diferencia presión tubería,Diferencia presión válvula,437,437,100.0,2014-04-21,2016-04-06,-0.4735795212710892,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DP_TUBING,BORE_GAS_VOL,Diferencia presión tubería,Gas producido,437,437,100.0,2014-04-21,2016-04-06,-0.7735521532024121,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_DP_TUBING,BORE_WAT_VOL,Diferencia presión tubería,Agua producida,437,437,100.0,2014-04-21,2016-04-06,0.713912302775899,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,AVG_CHOKE_SIZE_P,Presión entre tubos,Apertura válvula (%),2,437,0.4576659038901602,2014-04-21,2014-04-22,,False,Pocos datos o medición constante
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,AVG_WHP_P,Presión entre tubos,Presión en cabeza,2,437,0.4576659038901602,2014-04-21,2014-04-22,,False,Pocos datos o medición constante
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,AVG_WHT_P,Presión entre tubos,Temperatura en cabeza,2,437,0.4576659038901602,2014-04-21,2014-04-22,,False,Pocos datos o medición constante
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,DP_CHOKE_SIZE,Presión entre tubos,Diferencia presión válvula,2,437,0.4576659038901602,2014-04-21,2014-04-22,,False,Pocos datos o medición constante
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,BORE_GAS_VOL,Presión entre tubos,Gas producido,2,437,0.4576659038901602,2014-04-21,2014-04-22,,False,Pocos datos o medición constante
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,BORE_WAT_VOL,Presión entre tubos,Agua producida,2,437,0.4576659038901602,2014-04-21,2014-04-22,,False,Pocos datos o medición constante
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,AVG_WHP_P,Apertura válvula (%),Presión en cabeza,437,437,100.0,2014-04-21,2016-04-06,-0.6368123015941353,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,AVG_WHT_P,Apertura válvula (%),Temperatura en cabeza,437,437,100.0,2014-04-21,2016-04-06,0.7382108266966928,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,DP_CHOKE_SIZE,Apertura válvula (%),Diferencia presión válvula,437,437,100.0,2014-04-21,2016-04-06,-0.639710172633841,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,BORE_GAS_VOL,Apertura válvula (%),Gas producido,437,437,100.0,2014-04-21,2016-04-06,-0.1340421272407107,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,BORE_WAT_VOL,Apertura válvula (%),Agua producida,437,437,100.0,2014-04-21,2016-04-06,0.8182244870179476,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_WHP_P,AVG_WHT_P,Presión en cabeza,Temperatura en cabeza,437,437,100.0,2014-04-21,2016-04-06,-0.5285126745365823,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_WHP_P,DP_CHOKE_SIZE,Presión en cabeza,Diferencia presión válvula,437,437,100.0,2014-04-21,2016-04-06,0.7921293463031265,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_WHP_P,BORE_GAS_VOL,Presión en cabeza,Gas producido,437,437,100.0,2014-04-21,2016-04-06,0.6468482669118361,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_WHP_P,BORE_WAT_VOL,Presión en cabeza,Agua producida,437,437,100.0,2014-04-21,2016-04-06,-0.6660258570117144,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_WHT_P,DP_CHOKE_SIZE,Temperatura en cabeza,Diferencia presión válvula,437,437,100.0,2014-04-21,2016-04-06,-0.38145575415678373,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_WHT_P,BORE_GAS_VOL,Temperatura en cabeza,Gas producido,437,437,100.0,2014-04-21,2016-04-06,-0.08019898493015147,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,AVG_WHT_P,BORE_WAT_VOL,Temperatura en cabeza,Agua producida,437,437,100.0,2014-04-21,2016-04-06,0.7227100548383728,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,DP_CHOKE_SIZE,BORE_GAS_VOL,Diferencia presión válvula,Gas producido,437,437,100.0,2014-04-21,2016-04-06,0.46183155230350487,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,DP_CHOKE_SIZE,BORE_WAT_VOL,Diferencia presión válvula,Agua producida,437,437,100.0,2014-04-21,2016-04-06,-0.5110747179009539,False,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,BORE_GAS_VOL,BORE_WAT_VOL,Gas producido,Agua producida,437,437,100.0,2014-04-21,2016-04-06,-0.34881475851228355,False,Calculado
+15/9-F-11,Todos los días,ON_STREAM_HRS,AVG_DOWNHOLE_PRESSURE,Horas,Presión de fondo,1157,1165,99.31330472103004,2013-07-08,2016-09-17,-0.24426619884669956,False,Calculado
+15/9-F-11,Todos los días,ON_STREAM_HRS,AVG_DOWNHOLE_TEMPERATURE,Horas,Temperatura de fondo,1157,1165,99.31330472103004,2013-07-08,2016-09-17,0.2915505986747024,False,Calculado
+15/9-F-11,Todos los días,ON_STREAM_HRS,AVG_DP_TUBING,Horas,Diferencia presión tubería,1157,1165,99.31330472103004,2013-07-08,2016-09-17,-0.10102166005641777,False,Calculado
+15/9-F-11,Todos los días,ON_STREAM_HRS,AVG_ANNULUS_PRESS,Horas,Presión entre tubos,1157,1165,99.31330472103004,2013-07-08,2016-09-17,0.2861038570293568,False,Calculado
+15/9-F-11,Todos los días,ON_STREAM_HRS,AVG_CHOKE_SIZE_P,Horas,Apertura válvula (%),1161,1165,99.65665236051503,2013-07-08,2016-09-17,0.4361360923974701,False,Calculado
+15/9-F-11,Todos los días,ON_STREAM_HRS,AVG_WHP_P,Horas,Presión en cabeza,1157,1165,99.31330472103004,2013-07-08,2016-09-17,-0.07562051951399662,False,Calculado
+15/9-F-11,Todos los días,ON_STREAM_HRS,AVG_WHT_P,Horas,Temperatura en cabeza,1157,1165,99.31330472103004,2013-07-08,2016-09-17,0.406433209352814,False,Calculado
+15/9-F-11,Todos los días,ON_STREAM_HRS,DP_CHOKE_SIZE,Horas,Diferencia presión válvula,1157,1165,99.31330472103004,2013-07-08,2016-09-17,-0.09138243930174264,False,Calculado
+15/9-F-11,Todos los días,ON_STREAM_HRS,BORE_GAS_VOL,Horas,Gas producido,1163,1165,99.8283261802575,2013-07-08,2016-09-17,0.45467413701189724,False,Calculado
+15/9-F-11,Todos los días,ON_STREAM_HRS,BORE_WAT_VOL,Horas,Agua producida,1163,1165,99.8283261802575,2013-07-08,2016-09-17,0.38886036513762734,False,Calculado
+15/9-F-11,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_DOWNHOLE_TEMPERATURE,Presión de fondo,Temperatura de fondo,1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.4319929548876609,False,Calculado
+15/9-F-11,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_DP_TUBING,Presión de fondo,Diferencia presión tubería,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.5828933169885168,False,Calculado
+15/9-F-11,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_ANNULUS_PRESS,Presión de fondo,Presión entre tubos,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.12137227551548589,False,Calculado
+15/9-F-11,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_CHOKE_SIZE_P,Presión de fondo,Apertura válvula (%),1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.2602079943765976,False,Calculado
+15/9-F-11,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_WHP_P,Presión de fondo,Presión en cabeza,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.25334801808870716,False,Calculado
+15/9-F-11,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_WHT_P,Presión de fondo,Temperatura en cabeza,1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.21898306676478196,False,Calculado
+15/9-F-11,Todos los días,AVG_DOWNHOLE_PRESSURE,DP_CHOKE_SIZE,Presión de fondo,Diferencia presión válvula,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.2636323081256887,False,Calculado
+15/9-F-11,Todos los días,AVG_DOWNHOLE_PRESSURE,BORE_GAS_VOL,Presión de fondo,Gas producido,1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.444936272946594,False,Calculado
+15/9-F-11,Todos los días,AVG_DOWNHOLE_PRESSURE,BORE_WAT_VOL,Presión de fondo,Agua producida,1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.2115743807181433,False,Calculado
+15/9-F-11,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_DP_TUBING,Temperatura de fondo,Diferencia presión tubería,1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.725207717875015,False,Calculado
+15/9-F-11,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_ANNULUS_PRESS,Temperatura de fondo,Presión entre tubos,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.3612773333262377,False,Calculado
+15/9-F-11,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_CHOKE_SIZE_P,Temperatura de fondo,Apertura válvula (%),1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.19979105005231126,False,Calculado
+15/9-F-11,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_WHP_P,Temperatura de fondo,Presión en cabeza,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.42283624736582465,False,Calculado
+15/9-F-11,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_WHT_P,Temperatura de fondo,Temperatura en cabeza,1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.20709892842062297,False,Calculado
+15/9-F-11,Todos los días,AVG_DOWNHOLE_TEMPERATURE,DP_CHOKE_SIZE,Temperatura de fondo,Diferencia presión válvula,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.4131519194938565,False,Calculado
+15/9-F-11,Todos los días,AVG_DOWNHOLE_TEMPERATURE,BORE_GAS_VOL,Temperatura de fondo,Gas producido,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.5460814431455328,False,Calculado
+15/9-F-11,Todos los días,AVG_DOWNHOLE_TEMPERATURE,BORE_WAT_VOL,Temperatura de fondo,Agua producida,1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.28632129863864064,False,Calculado
+15/9-F-11,Todos los días,AVG_DP_TUBING,AVG_ANNULUS_PRESS,Diferencia presión tubería,Presión entre tubos,1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.20503968806979755,False,Calculado
+15/9-F-11,Todos los días,AVG_DP_TUBING,AVG_CHOKE_SIZE_P,Diferencia presión tubería,Apertura válvula (%),1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.44042297867744723,False,Calculado
+15/9-F-11,Todos los días,AVG_DP_TUBING,AVG_WHP_P,Diferencia presión tubería,Presión en cabeza,1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.4920626175304641,False,Calculado
+15/9-F-11,Todos los días,AVG_DP_TUBING,AVG_WHT_P,Diferencia presión tubería,Temperatura en cabeza,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.46337628787172824,False,Calculado
+15/9-F-11,Todos los días,AVG_DP_TUBING,DP_CHOKE_SIZE,Diferencia presión tubería,Diferencia presión válvula,1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.4829364908661083,False,Calculado
+15/9-F-11,Todos los días,AVG_DP_TUBING,BORE_GAS_VOL,Diferencia presión tubería,Gas producido,1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.4901072581372013,False,Calculado
+15/9-F-11,Todos los días,AVG_DP_TUBING,BORE_WAT_VOL,Diferencia presión tubería,Agua producida,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.5173505790394664,False,Calculado
+15/9-F-11,Todos los días,AVG_ANNULUS_PRESS,AVG_CHOKE_SIZE_P,Presión entre tubos,Apertura válvula (%),1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.04616077419830084,False,Calculado
+15/9-F-11,Todos los días,AVG_ANNULUS_PRESS,AVG_WHP_P,Presión entre tubos,Presión en cabeza,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.15768098894326055,False,Calculado
+15/9-F-11,Todos los días,AVG_ANNULUS_PRESS,AVG_WHT_P,Presión entre tubos,Temperatura en cabeza,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.016561196801321162,False,Calculado
+15/9-F-11,Todos los días,AVG_ANNULUS_PRESS,DP_CHOKE_SIZE,Presión entre tubos,Diferencia presión válvula,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.1532915565352081,False,Calculado
+15/9-F-11,Todos los días,AVG_ANNULUS_PRESS,BORE_GAS_VOL,Presión entre tubos,Gas producido,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.011163885305666622,False,Calculado
+15/9-F-11,Todos los días,AVG_ANNULUS_PRESS,BORE_WAT_VOL,Presión entre tubos,Agua producida,1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.03769162675483279,False,Calculado
+15/9-F-11,Todos los días,AVG_CHOKE_SIZE_P,AVG_WHP_P,Apertura válvula (%),Presión en cabeza,1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.7900297435063224,False,Calculado
+15/9-F-11,Todos los días,AVG_CHOKE_SIZE_P,AVG_WHT_P,Apertura válvula (%),Temperatura en cabeza,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.9521140416929593,True,Calculado
+15/9-F-11,Todos los días,AVG_CHOKE_SIZE_P,DP_CHOKE_SIZE,Apertura válvula (%),Diferencia presión válvula,1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.8007892375193175,False,Calculado
+15/9-F-11,Todos los días,AVG_CHOKE_SIZE_P,BORE_GAS_VOL,Apertura válvula (%),Gas producido,1163,1165,99.8283261802575,2013-07-08,2016-09-17,0.05486650449514744,False,Calculado
+15/9-F-11,Todos los días,AVG_CHOKE_SIZE_P,BORE_WAT_VOL,Apertura válvula (%),Agua producida,1163,1165,99.8283261802575,2013-07-08,2016-09-17,0.951066154353876,True,Calculado
+15/9-F-11,Todos los días,AVG_WHP_P,AVG_WHT_P,Presión en cabeza,Temperatura en cabeza,1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.7947384999787228,False,Calculado
+15/9-F-11,Todos los días,AVG_WHP_P,DP_CHOKE_SIZE,Presión en cabeza,Diferencia presión válvula,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.9908481677169912,True,Calculado
+15/9-F-11,Todos los días,AVG_WHP_P,BORE_GAS_VOL,Presión en cabeza,Gas producido,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.2803143771513268,False,Calculado
+15/9-F-11,Todos los días,AVG_WHP_P,BORE_WAT_VOL,Presión en cabeza,Agua producida,1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.8154748909597087,False,Calculado
+15/9-F-11,Todos los días,AVG_WHT_P,DP_CHOKE_SIZE,Temperatura en cabeza,Diferencia presión válvula,1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.7962921830261939,False,Calculado
+15/9-F-11,Todos los días,AVG_WHT_P,BORE_GAS_VOL,Temperatura en cabeza,Gas producido,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.002765488565702103,False,Calculado
+15/9-F-11,Todos los días,AVG_WHT_P,BORE_WAT_VOL,Temperatura en cabeza,Agua producida,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.9404445995726195,True,Calculado
+15/9-F-11,Todos los días,DP_CHOKE_SIZE,BORE_GAS_VOL,Diferencia presión válvula,Gas producido,1159,1165,99.48497854077253,2013-07-08,2016-09-17,0.26894186878111853,False,Calculado
+15/9-F-11,Todos los días,DP_CHOKE_SIZE,BORE_WAT_VOL,Diferencia presión válvula,Agua producida,1159,1165,99.48497854077253,2013-07-08,2016-09-17,-0.8176391280460015,False,Calculado
+15/9-F-11,Todos los días,BORE_GAS_VOL,BORE_WAT_VOL,Gas producido,Agua producida,1165,1165,100.0,2013-07-08,2016-09-17,-0.03981422840939368,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_DOWNHOLE_PRESSURE,Horas,Presión de fondo,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.24014036801111327,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_DOWNHOLE_TEMPERATURE,Horas,Temperatura de fondo,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.15876404069704564,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_DP_TUBING,Horas,Diferencia presión tubería,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.07516167409643344,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_ANNULUS_PRESS,Horas,Presión entre tubos,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.1567333787928286,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_CHOKE_SIZE_P,Horas,Apertura válvula (%),1120,1120,100.0,2013-07-24,2016-09-17,0.33231118585363806,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_WHP_P,Horas,Presión en cabeza,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.1944687146326888,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_WHT_P,Horas,Temperatura en cabeza,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.29732531803954504,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,ON_STREAM_HRS,DP_CHOKE_SIZE,Horas,Diferencia presión válvula,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.2017948219899576,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,ON_STREAM_HRS,BORE_GAS_VOL,Horas,Gas producido,1120,1120,100.0,2013-07-24,2016-09-17,0.3507301606356193,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,ON_STREAM_HRS,BORE_WAT_VOL,Horas,Agua producida,1120,1120,100.0,2013-07-24,2016-09-17,0.2726906264908101,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_DOWNHOLE_TEMPERATURE,Presión de fondo,Temperatura de fondo,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.4466704804601888,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_DP_TUBING,Presión de fondo,Diferencia presión tubería,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.5424407160811672,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_ANNULUS_PRESS,Presión de fondo,Presión entre tubos,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.16887452869630873,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_CHOKE_SIZE_P,Presión de fondo,Apertura válvula (%),1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.25263596068708055,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_WHP_P,Presión de fondo,Presión en cabeza,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.2552375513411922,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_WHT_P,Presión de fondo,Temperatura en cabeza,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.20759811886376733,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,DP_CHOKE_SIZE,Presión de fondo,Diferencia presión válvula,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.2590386789852088,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,BORE_GAS_VOL,Presión de fondo,Gas producido,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.4598696264343521,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,BORE_WAT_VOL,Presión de fondo,Agua producida,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.19632358788920187,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_DP_TUBING,Temperatura de fondo,Diferencia presión tubería,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.7730567047070027,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_ANNULUS_PRESS,Temperatura de fondo,Presión entre tubos,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.2926342783136309,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_CHOKE_SIZE_P,Temperatura de fondo,Apertura válvula (%),1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.32938354771152145,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_WHP_P,Temperatura de fondo,Presión en cabeza,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.4135968536965453,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_WHT_P,Temperatura de fondo,Temperatura en cabeza,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.33710322255220154,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,DP_CHOKE_SIZE,Temperatura de fondo,Diferencia presión válvula,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.41057032400665666,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,BORE_GAS_VOL,Temperatura de fondo,Gas producido,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.4982317087624608,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,BORE_WAT_VOL,Temperatura de fondo,Agua producida,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.4233644273624792,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_ANNULUS_PRESS,Diferencia presión tubería,Presión entre tubos,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.20218027833361008,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_CHOKE_SIZE_P,Diferencia presión tubería,Apertura válvula (%),1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.511736204389812,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_WHP_P,Diferencia presión tubería,Presión en cabeza,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.55036152081166,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_WHT_P,Diferencia presión tubería,Temperatura en cabeza,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.535907146126687,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DP_TUBING,DP_CHOKE_SIZE,Diferencia presión tubería,Diferencia presión válvula,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.5483631216009638,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DP_TUBING,BORE_GAS_VOL,Diferencia presión tubería,Gas producido,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.5113035563454232,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_DP_TUBING,BORE_WAT_VOL,Diferencia presión tubería,Agua producida,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.5963535262655647,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,AVG_CHOKE_SIZE_P,Presión entre tubos,Apertura válvula (%),1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.1558651725319392,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,AVG_WHP_P,Presión entre tubos,Presión en cabeza,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.12068955114274998,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,AVG_WHT_P,Presión entre tubos,Temperatura en cabeza,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.08557912711566973,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,DP_CHOKE_SIZE,Presión entre tubos,Diferencia presión válvula,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.12090978732211596,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,BORE_GAS_VOL,Presión entre tubos,Gas producido,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.09264863660831872,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,BORE_WAT_VOL,Presión entre tubos,Agua producida,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.1436754036859071,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,AVG_WHP_P,Apertura válvula (%),Presión en cabeza,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.9230366553733872,True,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,AVG_WHT_P,Apertura válvula (%),Temperatura en cabeza,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.946898487325119,True,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,DP_CHOKE_SIZE,Apertura válvula (%),Diferencia presión válvula,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.9296409017302265,True,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,BORE_GAS_VOL,Apertura válvula (%),Gas producido,1120,1120,100.0,2013-07-24,2016-09-17,-0.05008121390238054,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,BORE_WAT_VOL,Apertura válvula (%),Agua producida,1120,1120,100.0,2013-07-24,2016-09-17,0.946272054695819,True,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_WHP_P,AVG_WHT_P,Presión en cabeza,Temperatura en cabeza,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.927441513014449,True,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_WHP_P,DP_CHOKE_SIZE,Presión en cabeza,Diferencia presión válvula,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.9912974593012748,True,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_WHP_P,BORE_GAS_VOL,Presión en cabeza,Gas producido,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.2566796933750667,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_WHP_P,BORE_WAT_VOL,Presión en cabeza,Agua producida,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.9464934200368543,True,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_WHT_P,DP_CHOKE_SIZE,Temperatura en cabeza,Diferencia presión válvula,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.923681086614201,True,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_WHT_P,BORE_GAS_VOL,Temperatura en cabeza,Gas producido,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.1050775576317698,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,AVG_WHT_P,BORE_WAT_VOL,Temperatura en cabeza,Agua producida,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.9347538017056393,True,Calculado
+15/9-F-11,Con horas operativas válidas > 0,DP_CHOKE_SIZE,BORE_GAS_VOL,Diferencia presión válvula,Gas producido,1117,1120,99.73214285714286,2013-07-24,2016-09-17,0.25168204217779294,False,Calculado
+15/9-F-11,Con horas operativas válidas > 0,DP_CHOKE_SIZE,BORE_WAT_VOL,Diferencia presión válvula,Agua producida,1117,1120,99.73214285714286,2013-07-24,2016-09-17,-0.9435549001607366,True,Calculado
+15/9-F-11,Con horas operativas válidas > 0,BORE_GAS_VOL,BORE_WAT_VOL,Gas producido,Agua producida,1120,1120,100.0,2013-07-24,2016-09-17,-0.15858172675530044,False,Calculado
+15/9-F-12,Todos los días,ON_STREAM_HRS,AVG_DOWNHOLE_PRESSURE,Horas,Presión de fondo,3045,3056,99.64005235602095,2008-02-12,2016-09-17,-0.0008467306966610025,False,Calculado
+15/9-F-12,Todos los días,ON_STREAM_HRS,AVG_DOWNHOLE_TEMPERATURE,Horas,Temperatura de fondo,3045,3056,99.64005235602095,2008-02-12,2016-09-17,0.05565304413185429,False,Calculado
+15/9-F-12,Todos los días,ON_STREAM_HRS,AVG_DP_TUBING,Horas,Diferencia presión tubería,3045,3056,99.64005235602095,2008-02-12,2016-09-17,-0.016697716740887002,False,Calculado
+15/9-F-12,Todos los días,ON_STREAM_HRS,AVG_ANNULUS_PRESS,Horas,Presión entre tubos,3038,3056,99.41099476439791,2008-02-12,2016-09-17,0.37622979862641565,False,Calculado
+15/9-F-12,Todos los días,ON_STREAM_HRS,AVG_CHOKE_SIZE_P,Horas,Apertura válvula (%),3007,3056,98.39659685863874,2008-02-12,2016-09-17,0.4819048204407701,False,Calculado
+15/9-F-12,Todos los días,ON_STREAM_HRS,AVG_WHP_P,Horas,Presión en cabeza,3051,3056,99.83638743455498,2008-02-12,2016-09-17,-0.057830166748454884,False,Calculado
+15/9-F-12,Todos los días,ON_STREAM_HRS,AVG_WHT_P,Horas,Temperatura en cabeza,3051,3056,99.83638743455498,2008-02-12,2016-09-17,0.4001735405044535,False,Calculado
+15/9-F-12,Todos los días,ON_STREAM_HRS,DP_CHOKE_SIZE,Horas,Diferencia presión válvula,3051,3056,99.83638743455498,2008-02-12,2016-09-17,-0.11422190959197619,False,Calculado
+15/9-F-12,Todos los días,ON_STREAM_HRS,BORE_GAS_VOL,Horas,Gas producido,3051,3056,99.83638743455498,2008-02-12,2016-09-17,0.3900047413755945,False,Calculado
+15/9-F-12,Todos los días,ON_STREAM_HRS,BORE_WAT_VOL,Horas,Agua producida,3051,3056,99.83638743455498,2008-02-12,2016-09-17,0.41364084268652984,False,Calculado
+15/9-F-12,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_DOWNHOLE_TEMPERATURE,Presión de fondo,Temperatura de fondo,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.9560203776006887,True,Calculado
+15/9-F-12,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_DP_TUBING,Presión de fondo,Diferencia presión tubería,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.8062283489072668,False,Calculado
+15/9-F-12,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_ANNULUS_PRESS,Presión de fondo,Presión entre tubos,3037,3056,99.3782722513089,2008-02-12,2016-09-17,-0.06106784291703825,False,Calculado
+15/9-F-12,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_CHOKE_SIZE_P,Presión de fondo,Apertura válvula (%),3006,3056,98.36387434554973,2008-02-12,2016-09-17,-0.4100541674002035,False,Calculado
+15/9-F-12,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_WHP_P,Presión de fondo,Presión en cabeza,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.6833707748226646,False,Calculado
+15/9-F-12,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_WHT_P,Presión de fondo,Temperatura en cabeza,3050,3056,99.80366492146597,2008-02-12,2016-09-17,-0.30897530453878147,False,Calculado
+15/9-F-12,Todos los días,AVG_DOWNHOLE_PRESSURE,DP_CHOKE_SIZE,Presión de fondo,Diferencia presión válvula,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.6837468098811684,False,Calculado
+15/9-F-12,Todos los días,AVG_DOWNHOLE_PRESSURE,BORE_GAS_VOL,Presión de fondo,Gas producido,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.6750732399351307,False,Calculado
+15/9-F-12,Todos los días,AVG_DOWNHOLE_PRESSURE,BORE_WAT_VOL,Presión de fondo,Agua producida,3050,3056,99.80366492146597,2008-02-12,2016-09-17,-0.5035423761492918,False,Calculado
+15/9-F-12,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_DP_TUBING,Temperatura de fondo,Diferencia presión tubería,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.810778891707231,False,Calculado
+15/9-F-12,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_ANNULUS_PRESS,Temperatura de fondo,Presión entre tubos,3037,3056,99.3782722513089,2008-02-12,2016-09-17,0.030296006140923953,False,Calculado
+15/9-F-12,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_CHOKE_SIZE_P,Temperatura de fondo,Apertura válvula (%),3006,3056,98.36387434554973,2008-02-12,2016-09-17,-0.33913336769496566,False,Calculado
+15/9-F-12,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_WHP_P,Temperatura de fondo,Presión en cabeza,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.653059955801479,False,Calculado
+15/9-F-12,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_WHT_P,Temperatura de fondo,Temperatura en cabeza,3050,3056,99.80366492146597,2008-02-12,2016-09-17,-0.2518917798003923,False,Calculado
+15/9-F-12,Todos los días,AVG_DOWNHOLE_TEMPERATURE,DP_CHOKE_SIZE,Temperatura de fondo,Diferencia presión válvula,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.6447602148429211,False,Calculado
+15/9-F-12,Todos los días,AVG_DOWNHOLE_TEMPERATURE,BORE_GAS_VOL,Temperatura de fondo,Gas producido,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.7285244417583393,False,Calculado
+15/9-F-12,Todos los días,AVG_DOWNHOLE_TEMPERATURE,BORE_WAT_VOL,Temperatura de fondo,Agua producida,3050,3056,99.80366492146597,2008-02-12,2016-09-17,-0.45087229389707834,False,Calculado
+15/9-F-12,Todos los días,AVG_DP_TUBING,AVG_ANNULUS_PRESS,Diferencia presión tubería,Presión entre tubos,3037,3056,99.3782722513089,2008-02-12,2016-09-17,0.05968529401573505,False,Calculado
+15/9-F-12,Todos los días,AVG_DP_TUBING,AVG_CHOKE_SIZE_P,Diferencia presión tubería,Apertura válvula (%),3006,3056,98.36387434554973,2008-02-12,2016-09-17,-0.5349454729792379,False,Calculado
+15/9-F-12,Todos los días,AVG_DP_TUBING,AVG_WHP_P,Diferencia presión tubería,Presión en cabeza,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.8999643728166149,True,Calculado
+15/9-F-12,Todos los días,AVG_DP_TUBING,AVG_WHT_P,Diferencia presión tubería,Temperatura en cabeza,3050,3056,99.80366492146597,2008-02-12,2016-09-17,-0.17734403559818565,False,Calculado
+15/9-F-12,Todos los días,AVG_DP_TUBING,DP_CHOKE_SIZE,Diferencia presión tubería,Diferencia presión válvula,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.8805418255511848,True,Calculado
+15/9-F-12,Todos los días,AVG_DP_TUBING,BORE_GAS_VOL,Diferencia presión tubería,Gas producido,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.7291982628492023,False,Calculado
+15/9-F-12,Todos los días,AVG_DP_TUBING,BORE_WAT_VOL,Diferencia presión tubería,Agua producida,3050,3056,99.80366492146597,2008-02-12,2016-09-17,-0.37488698300092976,False,Calculado
+15/9-F-12,Todos los días,AVG_ANNULUS_PRESS,AVG_CHOKE_SIZE_P,Presión entre tubos,Apertura válvula (%),2999,3056,98.1348167539267,2008-02-12,2016-09-17,0.06977597939397953,False,Calculado
+15/9-F-12,Todos los días,AVG_ANNULUS_PRESS,AVG_WHP_P,Presión entre tubos,Presión en cabeza,3043,3056,99.57460732984293,2008-02-12,2016-09-17,-0.07155021262866708,False,Calculado
+15/9-F-12,Todos los días,AVG_ANNULUS_PRESS,AVG_WHT_P,Presión entre tubos,Temperatura en cabeza,3043,3056,99.57460732984293,2008-02-12,2016-09-17,0.17523181012115158,False,Calculado
+15/9-F-12,Todos los días,AVG_ANNULUS_PRESS,DP_CHOKE_SIZE,Presión entre tubos,Diferencia presión válvula,3043,3056,99.57460732984293,2008-02-12,2016-09-17,-0.10360169779758908,False,Calculado
+15/9-F-12,Todos los días,AVG_ANNULUS_PRESS,BORE_GAS_VOL,Presión entre tubos,Gas producido,3043,3056,99.57460732984293,2008-02-12,2016-09-17,0.1268948010079152,False,Calculado
+15/9-F-12,Todos los días,AVG_ANNULUS_PRESS,BORE_WAT_VOL,Presión entre tubos,Agua producida,3043,3056,99.57460732984293,2008-02-12,2016-09-17,0.23465474011946777,False,Calculado
+15/9-F-12,Todos los días,AVG_CHOKE_SIZE_P,AVG_WHP_P,Apertura válvula (%),Presión en cabeza,3012,3056,98.56020942408377,2008-02-12,2016-09-17,-0.6248224466666865,False,Calculado
+15/9-F-12,Todos los días,AVG_CHOKE_SIZE_P,AVG_WHT_P,Apertura válvula (%),Temperatura en cabeza,3012,3056,98.56020942408377,2008-02-12,2016-09-17,0.5887151302533558,False,Calculado
+15/9-F-12,Todos los días,AVG_CHOKE_SIZE_P,DP_CHOKE_SIZE,Apertura válvula (%),Diferencia presión válvula,3012,3056,98.56020942408377,2008-02-12,2016-09-17,-0.7008512160381519,False,Calculado
+15/9-F-12,Todos los días,AVG_CHOKE_SIZE_P,BORE_GAS_VOL,Apertura válvula (%),Gas producido,3012,3056,98.56020942408377,2008-02-12,2016-09-17,-0.21158689109121817,False,Calculado
+15/9-F-12,Todos los días,AVG_CHOKE_SIZE_P,BORE_WAT_VOL,Apertura válvula (%),Agua producida,3012,3056,98.56020942408377,2008-02-12,2016-09-17,0.670863491428902,False,Calculado
+15/9-F-12,Todos los días,AVG_WHP_P,AVG_WHT_P,Presión en cabeza,Temperatura en cabeza,3056,3056,100.0,2008-02-12,2016-09-17,-0.27062513497948065,False,Calculado
+15/9-F-12,Todos los días,AVG_WHP_P,DP_CHOKE_SIZE,Presión en cabeza,Diferencia presión válvula,3056,3056,100.0,2008-02-12,2016-09-17,0.966099754666164,True,Calculado
+15/9-F-12,Todos los días,AVG_WHP_P,BORE_GAS_VOL,Presión en cabeza,Gas producido,3056,3056,100.0,2008-02-12,2016-09-17,0.6698950682720449,False,Calculado
+15/9-F-12,Todos los días,AVG_WHP_P,BORE_WAT_VOL,Presión en cabeza,Agua producida,3056,3056,100.0,2008-02-12,2016-09-17,-0.4553001407119536,False,Calculado
+15/9-F-12,Todos los días,AVG_WHT_P,DP_CHOKE_SIZE,Temperatura en cabeza,Diferencia presión válvula,3056,3056,100.0,2008-02-12,2016-09-17,-0.3371769869116363,False,Calculado
+15/9-F-12,Todos los días,AVG_WHT_P,BORE_GAS_VOL,Temperatura en cabeza,Gas producido,3056,3056,100.0,2008-02-12,2016-09-17,0.031156357255200544,False,Calculado
+15/9-F-12,Todos los días,AVG_WHT_P,BORE_WAT_VOL,Temperatura en cabeza,Agua producida,3056,3056,100.0,2008-02-12,2016-09-17,0.8612560225032264,True,Calculado
+15/9-F-12,Todos los días,DP_CHOKE_SIZE,BORE_GAS_VOL,Diferencia presión válvula,Gas producido,3056,3056,100.0,2008-02-12,2016-09-17,0.633077465652905,False,Calculado
+15/9-F-12,Todos los días,DP_CHOKE_SIZE,BORE_WAT_VOL,Diferencia presión válvula,Agua producida,3056,3056,100.0,2008-02-12,2016-09-17,-0.5134114692330499,False,Calculado
+15/9-F-12,Todos los días,BORE_GAS_VOL,BORE_WAT_VOL,Gas producido,Agua producida,3056,3056,100.0,2008-02-12,2016-09-17,-0.2210503200249436,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_DOWNHOLE_PRESSURE,Horas,Presión de fondo,2827,2833,99.7882103776915,2008-02-12,2016-08-12,-0.07777162927253006,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_DOWNHOLE_TEMPERATURE,Horas,Temperatura de fondo,2827,2833,99.7882103776915,2008-02-12,2016-08-12,-0.03476850183973994,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_DP_TUBING,Horas,Diferencia presión tubería,2827,2833,99.7882103776915,2008-02-12,2016-08-12,-0.10846863595567931,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_ANNULUS_PRESS,Horas,Presión entre tubos,2820,2833,99.54112248499824,2008-02-12,2016-08-12,0.19647774341113927,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_CHOKE_SIZE_P,Horas,Apertura válvula (%),2833,2833,100.0,2008-02-12,2016-08-12,0.3243348164959504,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_WHP_P,Horas,Presión en cabeza,2833,2833,100.0,2008-02-12,2016-08-12,-0.1328494049671872,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_WHT_P,Horas,Temperatura en cabeza,2833,2833,100.0,2008-02-12,2016-08-12,0.16119298434257934,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,ON_STREAM_HRS,DP_CHOKE_SIZE,Horas,Diferencia presión válvula,2833,2833,100.0,2008-02-12,2016-08-12,-0.13575289164737409,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,ON_STREAM_HRS,BORE_GAS_VOL,Horas,Gas producido,2833,2833,100.0,2008-02-12,2016-08-12,0.14607710831555965,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,ON_STREAM_HRS,BORE_WAT_VOL,Horas,Agua producida,2833,2833,100.0,2008-02-12,2016-08-12,0.1917135686937783,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_DOWNHOLE_TEMPERATURE,Presión de fondo,Temperatura de fondo,2827,2833,99.7882103776915,2008-02-12,2016-08-12,0.9551292777136766,True,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_DP_TUBING,Presión de fondo,Diferencia presión tubería,2827,2833,99.7882103776915,2008-02-12,2016-08-12,0.815009866251049,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_ANNULUS_PRESS,Presión de fondo,Presión entre tubos,2814,2833,99.32933286268972,2008-02-12,2016-08-12,-0.09102409014370502,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_CHOKE_SIZE_P,Presión de fondo,Apertura válvula (%),2827,2833,99.7882103776915,2008-02-12,2016-08-12,-0.5266262680491947,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_WHP_P,Presión de fondo,Presión en cabeza,2827,2833,99.7882103776915,2008-02-12,2016-08-12,0.7759954437385186,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_WHT_P,Presión de fondo,Temperatura en cabeza,2827,2833,99.7882103776915,2008-02-12,2016-08-12,-0.39867625346923413,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,DP_CHOKE_SIZE,Presión de fondo,Diferencia presión válvula,2827,2833,99.7882103776915,2008-02-12,2016-08-12,0.7675149851903679,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,BORE_GAS_VOL,Presión de fondo,Gas producido,2827,2833,99.7882103776915,2008-02-12,2016-08-12,0.7326660001993252,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,BORE_WAT_VOL,Presión de fondo,Agua producida,2827,2833,99.7882103776915,2008-02-12,2016-08-12,-0.6145866625180066,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_DP_TUBING,Temperatura de fondo,Diferencia presión tubería,2827,2833,99.7882103776915,2008-02-12,2016-08-12,0.8251180083748709,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_ANNULUS_PRESS,Temperatura de fondo,Presión entre tubos,2814,2833,99.32933286268972,2008-02-12,2016-08-12,-0.0006851202379910775,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_CHOKE_SIZE_P,Temperatura de fondo,Apertura válvula (%),2827,2833,99.7882103776915,2008-02-12,2016-08-12,-0.4440806746607491,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_WHP_P,Temperatura de fondo,Presión en cabeza,2827,2833,99.7882103776915,2008-02-12,2016-08-12,0.7224470670959039,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_WHT_P,Temperatura de fondo,Temperatura en cabeza,2827,2833,99.7882103776915,2008-02-12,2016-08-12,-0.343360504661011,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,DP_CHOKE_SIZE,Temperatura de fondo,Diferencia presión válvula,2827,2833,99.7882103776915,2008-02-12,2016-08-12,0.7100516020038001,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,BORE_GAS_VOL,Temperatura de fondo,Gas producido,2827,2833,99.7882103776915,2008-02-12,2016-08-12,0.7611167787909107,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,BORE_WAT_VOL,Temperatura de fondo,Agua producida,2827,2833,99.7882103776915,2008-02-12,2016-08-12,-0.5616540420805917,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_ANNULUS_PRESS,Diferencia presión tubería,Presión entre tubos,2814,2833,99.32933286268972,2008-02-12,2016-08-12,0.07580681211024047,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_CHOKE_SIZE_P,Diferencia presión tubería,Apertura válvula (%),2827,2833,99.7882103776915,2008-02-12,2016-08-12,-0.7000307445489266,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_WHP_P,Diferencia presión tubería,Presión en cabeza,2827,2833,99.7882103776915,2008-02-12,2016-08-12,0.9345339371327037,True,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_WHT_P,Diferencia presión tubería,Temperatura en cabeza,2827,2833,99.7882103776915,2008-02-12,2016-08-12,-0.24937544725186267,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DP_TUBING,DP_CHOKE_SIZE,Diferencia presión tubería,Diferencia presión válvula,2827,2833,99.7882103776915,2008-02-12,2016-08-12,0.9136653297203092,True,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DP_TUBING,BORE_GAS_VOL,Diferencia presión tubería,Gas producido,2827,2833,99.7882103776915,2008-02-12,2016-08-12,0.816117736130011,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_DP_TUBING,BORE_WAT_VOL,Diferencia presión tubería,Agua producida,2827,2833,99.7882103776915,2008-02-12,2016-08-12,-0.4759946317695978,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,AVG_CHOKE_SIZE_P,Presión entre tubos,Apertura válvula (%),2820,2833,99.54112248499824,2008-02-12,2016-08-12,-0.06919065840681808,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,AVG_WHP_P,Presión entre tubos,Presión en cabeza,2820,2833,99.54112248499824,2008-02-12,2016-08-12,-0.06909862778419024,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,AVG_WHT_P,Presión entre tubos,Temperatura en cabeza,2820,2833,99.54112248499824,2008-02-12,2016-08-12,0.013701696229339949,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,DP_CHOKE_SIZE,Presión entre tubos,Diferencia presión válvula,2820,2833,99.54112248499824,2008-02-12,2016-08-12,-0.0639089233041039,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,BORE_GAS_VOL,Presión entre tubos,Gas producido,2820,2833,99.54112248499824,2008-02-12,2016-08-12,-0.045688339121812874,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,BORE_WAT_VOL,Presión entre tubos,Agua producida,2820,2833,99.54112248499824,2008-02-12,2016-08-12,0.08979759308021693,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,AVG_WHP_P,Apertura válvula (%),Presión en cabeza,2833,2833,100.0,2008-02-12,2016-08-12,-0.7808056023291421,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,AVG_WHT_P,Apertura válvula (%),Temperatura en cabeza,2833,2833,100.0,2008-02-12,2016-08-12,0.5077502094942883,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,DP_CHOKE_SIZE,Apertura válvula (%),Diferencia presión válvula,2833,2833,100.0,2008-02-12,2016-08-12,-0.8272895188084184,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,BORE_GAS_VOL,Apertura válvula (%),Gas producido,2833,2833,100.0,2008-02-12,2016-08-12,-0.4490804714908859,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,BORE_WAT_VOL,Apertura válvula (%),Agua producida,2833,2833,100.0,2008-02-12,2016-08-12,0.6087910394586722,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_WHP_P,AVG_WHT_P,Presión en cabeza,Temperatura en cabeza,2833,2833,100.0,2008-02-12,2016-08-12,-0.35990872185735423,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_WHP_P,DP_CHOKE_SIZE,Presión en cabeza,Diferencia presión válvula,2833,2833,100.0,2008-02-12,2016-08-12,0.9773100708522618,True,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_WHP_P,BORE_GAS_VOL,Presión en cabeza,Gas producido,2833,2833,100.0,2008-02-12,2016-08-12,0.7988008442977896,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_WHP_P,BORE_WAT_VOL,Presión en cabeza,Agua producida,2833,2833,100.0,2008-02-12,2016-08-12,-0.5812360441216775,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_WHT_P,DP_CHOKE_SIZE,Temperatura en cabeza,Diferencia presión válvula,2833,2833,100.0,2008-02-12,2016-08-12,-0.40059854256318395,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_WHT_P,BORE_GAS_VOL,Temperatura en cabeza,Gas producido,2833,2833,100.0,2008-02-12,2016-08-12,-0.20794341229698732,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,AVG_WHT_P,BORE_WAT_VOL,Temperatura en cabeza,Agua producida,2833,2833,100.0,2008-02-12,2016-08-12,0.8313364150247954,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,DP_CHOKE_SIZE,BORE_GAS_VOL,Diferencia presión válvula,Gas producido,2833,2833,100.0,2008-02-12,2016-08-12,0.7852070080696141,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,DP_CHOKE_SIZE,BORE_WAT_VOL,Diferencia presión válvula,Agua producida,2833,2833,100.0,2008-02-12,2016-08-12,-0.6085564216018022,False,Calculado
+15/9-F-12,Con horas operativas válidas > 0,BORE_GAS_VOL,BORE_WAT_VOL,Gas producido,Agua producida,2833,2833,100.0,2008-02-12,2016-08-12,-0.5113217533456601,False,Calculado
+15/9-F-14,Todos los días,ON_STREAM_HRS,AVG_DOWNHOLE_PRESSURE,Horas,Presión de fondo,3045,3056,99.64005235602095,2008-02-12,2016-09-17,0.04734793015600691,False,Calculado
+15/9-F-14,Todos los días,ON_STREAM_HRS,AVG_DOWNHOLE_TEMPERATURE,Horas,Temperatura de fondo,3045,3056,99.64005235602095,2008-02-12,2016-09-17,0.34350575344375717,False,Calculado
+15/9-F-14,Todos los días,ON_STREAM_HRS,AVG_DP_TUBING,Horas,Diferencia presión tubería,3045,3056,99.64005235602095,2008-02-12,2016-09-17,0.21158851205674611,False,Calculado
+15/9-F-14,Todos los días,ON_STREAM_HRS,AVG_ANNULUS_PRESS,Horas,Presión entre tubos,2529,3056,82.75523560209425,2008-02-12,2016-09-17,0.2595887731887847,False,Calculado
+15/9-F-14,Todos los días,ON_STREAM_HRS,AVG_CHOKE_SIZE_P,Horas,Apertura válvula (%),2855,3056,93.42277486910994,2008-03-30,2016-09-17,0.4864191843444766,False,Calculado
+15/9-F-14,Todos los días,ON_STREAM_HRS,AVG_WHP_P,Horas,Presión en cabeza,3051,3056,99.83638743455498,2008-02-12,2016-09-17,0.13005511451870672,False,Calculado
+15/9-F-14,Todos los días,ON_STREAM_HRS,AVG_WHT_P,Horas,Temperatura en cabeza,3051,3056,99.83638743455498,2008-02-12,2016-09-17,0.5668573792509638,False,Calculado
+15/9-F-14,Todos los días,ON_STREAM_HRS,DP_CHOKE_SIZE,Horas,Diferencia presión válvula,3051,3056,99.83638743455498,2008-02-12,2016-09-17,-0.22157854683937003,False,Calculado
+15/9-F-14,Todos los días,ON_STREAM_HRS,BORE_GAS_VOL,Horas,Gas producido,3051,3056,99.83638743455498,2008-02-12,2016-09-17,0.46258018700123676,False,Calculado
+15/9-F-14,Todos los días,ON_STREAM_HRS,BORE_WAT_VOL,Horas,Agua producida,3051,3056,99.83638743455498,2008-02-12,2016-09-17,0.5704981367140115,False,Calculado
+15/9-F-14,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_DOWNHOLE_TEMPERATURE,Presión de fondo,Temperatura de fondo,3050,3056,99.80366492146597,2008-02-12,2016-09-17,-0.336888766076921,False,Calculado
+15/9-F-14,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_DP_TUBING,Presión de fondo,Diferencia presión tubería,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.8096094393647694,False,Calculado
+15/9-F-14,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_ANNULUS_PRESS,Presión de fondo,Presión entre tubos,2533,3056,82.88612565445027,2008-02-12,2016-09-17,0.34741081116628314,False,Calculado
+15/9-F-14,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_CHOKE_SIZE_P,Presión de fondo,Apertura válvula (%),2854,3056,93.39005235602095,2008-03-30,2016-09-17,0.2308231217807602,False,Calculado
+15/9-F-14,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_WHP_P,Presión de fondo,Presión en cabeza,3050,3056,99.80366492146597,2008-02-12,2016-09-17,-0.26260315794128297,False,Calculado
+15/9-F-14,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_WHT_P,Presión de fondo,Temperatura en cabeza,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.21048796725363314,False,Calculado
+15/9-F-14,Todos los días,AVG_DOWNHOLE_PRESSURE,DP_CHOKE_SIZE,Presión de fondo,Diferencia presión válvula,3050,3056,99.80366492146597,2008-02-12,2016-09-17,-0.438425688461023,False,Calculado
+15/9-F-14,Todos los días,AVG_DOWNHOLE_PRESSURE,BORE_GAS_VOL,Presión de fondo,Gas producido,3050,3056,99.80366492146597,2008-02-12,2016-09-17,-0.46522852998944353,False,Calculado
+15/9-F-14,Todos los días,AVG_DOWNHOLE_PRESSURE,BORE_WAT_VOL,Presión de fondo,Agua producida,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.25999337131486966,False,Calculado
+15/9-F-14,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_DP_TUBING,Temperatura de fondo,Diferencia presión tubería,3050,3056,99.80366492146597,2008-02-12,2016-09-17,-0.44112207089534644,False,Calculado
+15/9-F-14,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_ANNULUS_PRESS,Temperatura de fondo,Presión entre tubos,2533,3056,82.88612565445027,2008-02-12,2016-09-17,-0.35347748489017033,False,Calculado
+15/9-F-14,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_CHOKE_SIZE_P,Temperatura de fondo,Apertura válvula (%),2854,3056,93.39005235602095,2008-03-30,2016-09-17,-0.3647686882977256,False,Calculado
+15/9-F-14,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_WHP_P,Temperatura de fondo,Presión en cabeza,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.7960483879978545,False,Calculado
+15/9-F-14,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_WHT_P,Temperatura de fondo,Temperatura en cabeza,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.28895203143618065,False,Calculado
+15/9-F-14,Todos los días,AVG_DOWNHOLE_TEMPERATURE,DP_CHOKE_SIZE,Temperatura de fondo,Diferencia presión válvula,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.5964971126100739,False,Calculado
+15/9-F-14,Todos los días,AVG_DOWNHOLE_TEMPERATURE,BORE_GAS_VOL,Temperatura de fondo,Gas producido,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.8825325978020562,True,Calculado
+15/9-F-14,Todos los días,AVG_DOWNHOLE_TEMPERATURE,BORE_WAT_VOL,Temperatura de fondo,Agua producida,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.0370543049311091,False,Calculado
+15/9-F-14,Todos los días,AVG_DP_TUBING,AVG_ANNULUS_PRESS,Diferencia presión tubería,Presión entre tubos,2533,3056,82.88612565445027,2008-02-12,2016-09-17,0.5667290195644225,False,Calculado
+15/9-F-14,Todos los días,AVG_DP_TUBING,AVG_CHOKE_SIZE_P,Diferencia presión tubería,Apertura válvula (%),2854,3056,93.39005235602095,2008-03-30,2016-09-17,0.5796138793187092,False,Calculado
+15/9-F-14,Todos los días,AVG_DP_TUBING,AVG_WHP_P,Diferencia presión tubería,Presión en cabeza,3050,3056,99.80366492146597,2008-02-12,2016-09-17,-0.5707243893457987,False,Calculado
+15/9-F-14,Todos los días,AVG_DP_TUBING,AVG_WHT_P,Diferencia presión tubería,Temperatura en cabeza,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.38519323039905196,False,Calculado
+15/9-F-14,Todos los días,AVG_DP_TUBING,DP_CHOKE_SIZE,Diferencia presión tubería,Diferencia presión válvula,3050,3056,99.80366492146597,2008-02-12,2016-09-17,-0.7696667059917276,False,Calculado
+15/9-F-14,Todos los días,AVG_DP_TUBING,BORE_GAS_VOL,Diferencia presión tubería,Gas producido,3050,3056,99.80366492146597,2008-02-12,2016-09-17,-0.5247695232893721,False,Calculado
+15/9-F-14,Todos los días,AVG_DP_TUBING,BORE_WAT_VOL,Diferencia presión tubería,Agua producida,3050,3056,99.80366492146597,2008-02-12,2016-09-17,0.5161860872690808,False,Calculado
+15/9-F-14,Todos los días,AVG_ANNULUS_PRESS,AVG_CHOKE_SIZE_P,Presión entre tubos,Apertura válvula (%),2360,3056,77.22513089005236,2008-03-30,2016-09-17,0.30223138034538494,False,Calculado
+15/9-F-14,Todos los días,AVG_ANNULUS_PRESS,AVG_WHP_P,Presión entre tubos,Presión en cabeza,2533,3056,82.88612565445027,2008-02-12,2016-09-17,-0.3855656787781044,False,Calculado
+15/9-F-14,Todos los días,AVG_ANNULUS_PRESS,AVG_WHT_P,Presión entre tubos,Temperatura en cabeza,2533,3056,82.88612565445027,2008-02-12,2016-09-17,0.09391552289364308,False,Calculado
+15/9-F-14,Todos los días,AVG_ANNULUS_PRESS,DP_CHOKE_SIZE,Presión entre tubos,Diferencia presión válvula,2533,3056,82.88612565445027,2008-02-12,2016-09-17,-0.5160403945856454,False,Calculado
+15/9-F-14,Todos los días,AVG_ANNULUS_PRESS,BORE_GAS_VOL,Presión entre tubos,Gas producido,2533,3056,82.88612565445027,2008-02-12,2016-09-17,-0.3367227571641874,False,Calculado
+15/9-F-14,Todos los días,AVG_ANNULUS_PRESS,BORE_WAT_VOL,Presión entre tubos,Agua producida,2533,3056,82.88612565445027,2008-02-12,2016-09-17,0.21719864864590607,False,Calculado
+15/9-F-14,Todos los días,AVG_CHOKE_SIZE_P,AVG_WHP_P,Apertura válvula (%),Presión en cabeza,2860,3056,93.58638743455498,2008-03-30,2016-09-17,-0.6205008688654322,False,Calculado
+15/9-F-14,Todos los días,AVG_CHOKE_SIZE_P,AVG_WHT_P,Apertura válvula (%),Temperatura en cabeza,2860,3056,93.58638743455498,2008-03-30,2016-09-17,0.46965957075008163,False,Calculado
+15/9-F-14,Todos los días,AVG_CHOKE_SIZE_P,DP_CHOKE_SIZE,Apertura válvula (%),Diferencia presión válvula,2860,3056,93.58638743455498,2008-03-30,2016-09-17,-0.7804872309921148,False,Calculado
+15/9-F-14,Todos los días,AVG_CHOKE_SIZE_P,BORE_GAS_VOL,Apertura válvula (%),Gas producido,2860,3056,93.58638743455498,2008-03-30,2016-09-17,-0.3200036563428684,False,Calculado
+15/9-F-14,Todos los días,AVG_CHOKE_SIZE_P,BORE_WAT_VOL,Apertura válvula (%),Agua producida,2860,3056,93.58638743455498,2008-03-30,2016-09-17,0.704155838770059,False,Calculado
+15/9-F-14,Todos los días,AVG_WHP_P,AVG_WHT_P,Presión en cabeza,Temperatura en cabeza,3056,3056,100.0,2008-02-12,2016-09-17,-0.018742520462865588,False,Calculado
+15/9-F-14,Todos los días,AVG_WHP_P,DP_CHOKE_SIZE,Presión en cabeza,Diferencia presión válvula,3056,3056,100.0,2008-02-12,2016-09-17,0.798442116957339,False,Calculado
+15/9-F-14,Todos los días,AVG_WHP_P,BORE_GAS_VOL,Presión en cabeza,Gas producido,3056,3056,100.0,2008-02-12,2016-09-17,0.7979637304400137,False,Calculado
+15/9-F-14,Todos los días,AVG_WHP_P,BORE_WAT_VOL,Presión en cabeza,Agua producida,3056,3056,100.0,2008-02-12,2016-09-17,-0.18553098845562674,False,Calculado
+15/9-F-14,Todos los días,AVG_WHT_P,DP_CHOKE_SIZE,Temperatura en cabeza,Diferencia presión válvula,3056,3056,100.0,2008-02-12,2016-09-17,-0.2808829913923417,False,Calculado
+15/9-F-14,Todos los días,AVG_WHT_P,BORE_GAS_VOL,Temperatura en cabeza,Gas producido,3056,3056,100.0,2008-02-12,2016-09-17,0.2116372759795127,False,Calculado
+15/9-F-14,Todos los días,AVG_WHT_P,BORE_WAT_VOL,Temperatura en cabeza,Agua producida,3056,3056,100.0,2008-02-12,2016-09-17,0.7171177864911017,False,Calculado
+15/9-F-14,Todos los días,DP_CHOKE_SIZE,BORE_GAS_VOL,Diferencia presión válvula,Gas producido,3056,3056,100.0,2008-02-12,2016-09-17,0.5765328850107762,False,Calculado
+15/9-F-14,Todos los días,DP_CHOKE_SIZE,BORE_WAT_VOL,Diferencia presión válvula,Agua producida,3056,3056,100.0,2008-02-12,2016-09-17,-0.47547871528423624,False,Calculado
+15/9-F-14,Todos los días,BORE_GAS_VOL,BORE_WAT_VOL,Gas producido,Agua producida,3056,3056,100.0,2008-02-12,2016-09-17,0.05926266939340626,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_DOWNHOLE_PRESSURE,Horas,Presión de fondo,2713,2719,99.77933063626334,2008-07-13,2016-07-13,-0.07179919315701418,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_DOWNHOLE_TEMPERATURE,Horas,Temperatura de fondo,2713,2719,99.77933063626334,2008-07-13,2016-07-13,-0.022150735794504696,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_DP_TUBING,Horas,Diferencia presión tubería,2713,2719,99.77933063626334,2008-07-13,2016-07-13,0.07347807047700584,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_ANNULUS_PRESS,Horas,Presión entre tubos,2221,2719,81.68444280985656,2008-07-13,2016-07-13,0.0872201885535366,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_CHOKE_SIZE_P,Horas,Apertura válvula (%),2719,2719,100.0,2008-07-13,2016-07-13,0.35603075232292447,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_WHP_P,Horas,Presión en cabeza,2719,2719,100.0,2008-07-13,2016-07-13,-0.21186035983623772,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_WHT_P,Horas,Temperatura en cabeza,2719,2719,100.0,2008-07-13,2016-07-13,0.29532251049734026,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,ON_STREAM_HRS,DP_CHOKE_SIZE,Horas,Diferencia presión válvula,2719,2719,100.0,2008-07-13,2016-07-13,-0.2324017096887811,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,ON_STREAM_HRS,BORE_GAS_VOL,Horas,Gas producido,2719,2719,100.0,2008-07-13,2016-07-13,0.1099557716397053,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,ON_STREAM_HRS,BORE_WAT_VOL,Horas,Agua producida,2719,2719,100.0,2008-07-13,2016-07-13,0.3023123552532599,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_DOWNHOLE_TEMPERATURE,Presión de fondo,Temperatura de fondo,2713,2719,99.77933063626334,2008-07-13,2016-07-13,-0.6022004288720598,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_DP_TUBING,Presión de fondo,Diferencia presión tubería,2713,2719,99.77933063626334,2008-07-13,2016-07-13,0.8147282005951504,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_ANNULUS_PRESS,Presión de fondo,Presión entre tubos,2221,2719,81.68444280985656,2008-07-13,2016-07-13,0.3480094480238197,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_CHOKE_SIZE_P,Presión de fondo,Apertura válvula (%),2713,2719,99.77933063626334,2008-07-13,2016-07-13,0.2933054846294166,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_WHP_P,Presión de fondo,Presión en cabeza,2713,2719,99.77933063626334,2008-07-13,2016-07-13,-0.5941229032208745,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_WHT_P,Presión de fondo,Temperatura en cabeza,2713,2719,99.77933063626334,2008-07-13,2016-07-13,0.18745387390520818,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,DP_CHOKE_SIZE,Presión de fondo,Diferencia presión válvula,2713,2719,99.77933063626334,2008-07-13,2016-07-13,-0.5387429719730336,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,BORE_GAS_VOL,Presión de fondo,Gas producido,2713,2719,99.77933063626334,2008-07-13,2016-07-13,-0.7355413280158294,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,BORE_WAT_VOL,Presión de fondo,Agua producida,2713,2719,99.77933063626334,2008-07-13,2016-07-13,0.2758194530662295,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_DP_TUBING,Temperatura de fondo,Diferencia presión tubería,2713,2719,99.77933063626334,2008-07-13,2016-07-13,-0.7861948450391593,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_ANNULUS_PRESS,Temperatura de fondo,Presión entre tubos,2221,2719,81.68444280985656,2008-07-13,2016-07-13,-0.5556733203829053,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_CHOKE_SIZE_P,Temperatura de fondo,Apertura válvula (%),2713,2719,99.77933063626334,2008-07-13,2016-07-13,-0.5764806671724314,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_WHP_P,Temperatura de fondo,Presión en cabeza,2713,2719,99.77933063626334,2008-07-13,2016-07-13,0.830929812969859,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_WHT_P,Temperatura de fondo,Temperatura en cabeza,2713,2719,99.77933063626334,2008-07-13,2016-07-13,0.0394679734596274,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,DP_CHOKE_SIZE,Temperatura de fondo,Diferencia presión válvula,2713,2719,99.77933063626334,2008-07-13,2016-07-13,0.8193450230299171,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,BORE_GAS_VOL,Temperatura de fondo,Gas producido,2713,2719,99.77933063626334,2008-07-13,2016-07-13,0.861721856227556,True,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,BORE_WAT_VOL,Temperatura de fondo,Agua producida,2713,2719,99.77933063626334,2008-07-13,2016-07-13,-0.30631649836379493,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_ANNULUS_PRESS,Diferencia presión tubería,Presión entre tubos,2221,2719,81.68444280985656,2008-07-13,2016-07-13,0.5653845853377072,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_CHOKE_SIZE_P,Diferencia presión tubería,Apertura válvula (%),2713,2719,99.77933063626334,2008-07-13,2016-07-13,0.6384888676511713,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_WHP_P,Diferencia presión tubería,Presión en cabeza,2713,2719,99.77933063626334,2008-07-13,2016-07-13,-0.9080364462440805,True,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_WHT_P,Diferencia presión tubería,Temperatura en cabeza,2713,2719,99.77933063626334,2008-07-13,2016-07-13,0.34185933101633403,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DP_TUBING,DP_CHOKE_SIZE,Diferencia presión tubería,Diferencia presión válvula,2713,2719,99.77933063626334,2008-07-13,2016-07-13,-0.8527181382227295,True,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DP_TUBING,BORE_GAS_VOL,Diferencia presión tubería,Gas producido,2713,2719,99.77933063626334,2008-07-13,2016-07-13,-0.8947413152658865,True,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_DP_TUBING,BORE_WAT_VOL,Diferencia presión tubería,Agua producida,2713,2719,99.77933063626334,2008-07-13,2016-07-13,0.5372601446813946,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,AVG_CHOKE_SIZE_P,Presión entre tubos,Apertura válvula (%),2221,2719,81.68444280985656,2008-07-13,2016-07-13,0.2478620821341035,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,AVG_WHP_P,Presión entre tubos,Presión en cabeza,2221,2719,81.68444280985656,2008-07-13,2016-07-13,-0.5687544548642292,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,AVG_WHT_P,Presión entre tubos,Temperatura en cabeza,2221,2719,81.68444280985656,2008-07-13,2016-07-13,-0.054414116368917076,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,DP_CHOKE_SIZE,Presión entre tubos,Diferencia presión válvula,2221,2719,81.68444280985656,2008-07-13,2016-07-13,-0.48185321377053125,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,BORE_GAS_VOL,Presión entre tubos,Gas producido,2221,2719,81.68444280985656,2008-07-13,2016-07-13,-0.5818342218627854,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,BORE_WAT_VOL,Presión entre tubos,Agua producida,2221,2719,81.68444280985656,2008-07-13,2016-07-13,0.08238947954993489,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,AVG_WHP_P,Apertura válvula (%),Presión en cabeza,2719,2719,100.0,2008-07-13,2016-07-13,-0.7963002666192844,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,AVG_WHT_P,Apertura válvula (%),Temperatura en cabeza,2719,2719,100.0,2008-07-13,2016-07-13,0.3831967595795497,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,DP_CHOKE_SIZE,Apertura válvula (%),Diferencia presión válvula,2719,2719,100.0,2008-07-13,2016-07-13,-0.8598390484704831,True,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,BORE_GAS_VOL,Apertura válvula (%),Gas producido,2719,2719,100.0,2008-07-13,2016-07-13,-0.5340865776284571,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,BORE_WAT_VOL,Apertura válvula (%),Agua producida,2719,2719,100.0,2008-07-13,2016-07-13,0.6562991520610092,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_WHP_P,AVG_WHT_P,Presión en cabeza,Temperatura en cabeza,2719,2719,100.0,2008-07-13,2016-07-13,-0.28800693497635765,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_WHP_P,DP_CHOKE_SIZE,Presión en cabeza,Diferencia presión válvula,2719,2719,100.0,2008-07-13,2016-07-13,0.9663139810380234,True,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_WHP_P,BORE_GAS_VOL,Presión en cabeza,Gas producido,2719,2719,100.0,2008-07-13,2016-07-13,0.8647528655757315,True,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_WHP_P,BORE_WAT_VOL,Presión en cabeza,Agua producida,2719,2719,100.0,2008-07-13,2016-07-13,-0.5118233364943524,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_WHT_P,DP_CHOKE_SIZE,Temperatura en cabeza,Diferencia presión válvula,2719,2719,100.0,2008-07-13,2016-07-13,-0.2745084818810893,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_WHT_P,BORE_GAS_VOL,Temperatura en cabeza,Gas producido,2719,2719,100.0,2008-07-13,2016-07-13,-0.11073884255980569,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,AVG_WHT_P,BORE_WAT_VOL,Temperatura en cabeza,Agua producida,2719,2719,100.0,2008-07-13,2016-07-13,0.6016387275333539,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,DP_CHOKE_SIZE,BORE_GAS_VOL,Diferencia presión válvula,Gas producido,2719,2719,100.0,2008-07-13,2016-07-13,0.820227057256168,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,DP_CHOKE_SIZE,BORE_WAT_VOL,Diferencia presión válvula,Agua producida,2719,2719,100.0,2008-07-13,2016-07-13,-0.5276986369138112,False,Calculado
+15/9-F-14,Con horas operativas válidas > 0,BORE_GAS_VOL,BORE_WAT_VOL,Gas producido,Agua producida,2719,2719,100.0,2008-07-13,2016-07-13,-0.32486631706271357,False,Calculado
+15/9-F-15 D,Todos los días,ON_STREAM_HRS,AVG_DOWNHOLE_PRESSURE,Horas,Presión de fondo,978,978,100.0,2014-01-12,2016-09-17,-0.7063021945203384,False,Calculado
+15/9-F-15 D,Todos los días,ON_STREAM_HRS,AVG_DOWNHOLE_TEMPERATURE,Horas,Temperatura de fondo,978,978,100.0,2014-01-12,2016-09-17,0.7210608674945848,False,Calculado
+15/9-F-15 D,Todos los días,ON_STREAM_HRS,AVG_DP_TUBING,Horas,Diferencia presión tubería,978,978,100.0,2014-01-12,2016-09-17,-0.46426523132696,False,Calculado
+15/9-F-15 D,Todos los días,ON_STREAM_HRS,AVG_ANNULUS_PRESS,Horas,Presión entre tubos,978,978,100.0,2014-01-12,2016-09-17,0.7065312320761588,False,Calculado
+15/9-F-15 D,Todos los días,ON_STREAM_HRS,AVG_CHOKE_SIZE_P,Horas,Apertura válvula (%),978,978,100.0,2014-01-12,2016-09-17,0.6932459123849861,False,Calculado
+15/9-F-15 D,Todos los días,ON_STREAM_HRS,AVG_WHP_P,Horas,Presión en cabeza,978,978,100.0,2014-01-12,2016-09-17,-0.13735143088517918,False,Calculado
+15/9-F-15 D,Todos los días,ON_STREAM_HRS,AVG_WHT_P,Horas,Temperatura en cabeza,978,978,100.0,2014-01-12,2016-09-17,0.6911003187989028,False,Calculado
+15/9-F-15 D,Todos los días,ON_STREAM_HRS,DP_CHOKE_SIZE,Horas,Diferencia presión válvula,978,978,100.0,2014-01-12,2016-09-17,-0.4066201067491014,False,Calculado
+15/9-F-15 D,Todos los días,ON_STREAM_HRS,BORE_GAS_VOL,Horas,Gas producido,978,978,100.0,2014-01-12,2016-09-17,0.7096980622698328,False,Calculado
+15/9-F-15 D,Todos los días,ON_STREAM_HRS,BORE_WAT_VOL,Horas,Agua producida,978,978,100.0,2014-01-12,2016-09-17,0.5007138356546453,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_DOWNHOLE_TEMPERATURE,Presión de fondo,Temperatura de fondo,978,978,100.0,2014-01-12,2016-09-17,-0.6882902801580469,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_DP_TUBING,Presión de fondo,Diferencia presión tubería,978,978,100.0,2014-01-12,2016-09-17,0.7646102777250766,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_ANNULUS_PRESS,Presión de fondo,Presión entre tubos,978,978,100.0,2014-01-12,2016-09-17,-0.5394707944919377,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_CHOKE_SIZE_P,Presión de fondo,Apertura válvula (%),978,978,100.0,2014-01-12,2016-09-17,-0.47699144258478876,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_WHP_P,Presión de fondo,Presión en cabeza,978,978,100.0,2014-01-12,2016-09-17,-0.03400020386404176,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DOWNHOLE_PRESSURE,AVG_WHT_P,Presión de fondo,Temperatura en cabeza,978,978,100.0,2014-01-12,2016-09-17,-0.34431581905713665,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DOWNHOLE_PRESSURE,DP_CHOKE_SIZE,Presión de fondo,Diferencia presión válvula,978,978,100.0,2014-01-12,2016-09-17,0.2521881883129049,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DOWNHOLE_PRESSURE,BORE_GAS_VOL,Presión de fondo,Gas producido,978,978,100.0,2014-01-12,2016-09-17,-0.4636662574604,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DOWNHOLE_PRESSURE,BORE_WAT_VOL,Presión de fondo,Agua producida,978,978,100.0,2014-01-12,2016-09-17,-0.0755105803356788,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_DP_TUBING,Temperatura de fondo,Diferencia presión tubería,978,978,100.0,2014-01-12,2016-09-17,-0.5854106803458831,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_ANNULUS_PRESS,Temperatura de fondo,Presión entre tubos,978,978,100.0,2014-01-12,2016-09-17,0.7709821033483707,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_CHOKE_SIZE_P,Temperatura de fondo,Apertura válvula (%),978,978,100.0,2014-01-12,2016-09-17,0.7113219873441343,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_WHP_P,Temperatura de fondo,Presión en cabeza,978,978,100.0,2014-01-12,2016-09-17,0.04947191654110444,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DOWNHOLE_TEMPERATURE,AVG_WHT_P,Temperatura de fondo,Temperatura en cabeza,978,978,100.0,2014-01-12,2016-09-17,0.6176267307133874,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DOWNHOLE_TEMPERATURE,DP_CHOKE_SIZE,Temperatura de fondo,Diferencia presión válvula,978,978,100.0,2014-01-12,2016-09-17,-0.12355932701268675,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DOWNHOLE_TEMPERATURE,BORE_GAS_VOL,Temperatura de fondo,Gas producido,978,978,100.0,2014-01-12,2016-09-17,0.6630371161845973,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DOWNHOLE_TEMPERATURE,BORE_WAT_VOL,Temperatura de fondo,Agua producida,978,978,100.0,2014-01-12,2016-09-17,0.22535366705709725,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DP_TUBING,AVG_ANNULUS_PRESS,Diferencia presión tubería,Presión entre tubos,978,978,100.0,2014-01-12,2016-09-17,-0.42773724607065466,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DP_TUBING,AVG_CHOKE_SIZE_P,Diferencia presión tubería,Apertura válvula (%),978,978,100.0,2014-01-12,2016-09-17,-0.17258398941065597,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DP_TUBING,AVG_WHP_P,Diferencia presión tubería,Presión en cabeza,978,978,100.0,2014-01-12,2016-09-17,-0.5255320412439949,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DP_TUBING,AVG_WHT_P,Diferencia presión tubería,Temperatura en cabeza,978,978,100.0,2014-01-12,2016-09-17,-0.07120982658347495,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DP_TUBING,DP_CHOKE_SIZE,Diferencia presión tubería,Diferencia presión válvula,978,978,100.0,2014-01-12,2016-09-17,-0.27837185341304294,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DP_TUBING,BORE_GAS_VOL,Diferencia presión tubería,Gas producido,978,978,100.0,2014-01-12,2016-09-17,-0.5272227665566838,False,Calculado
+15/9-F-15 D,Todos los días,AVG_DP_TUBING,BORE_WAT_VOL,Diferencia presión tubería,Agua producida,978,978,100.0,2014-01-12,2016-09-17,0.3642207815931651,False,Calculado
+15/9-F-15 D,Todos los días,AVG_ANNULUS_PRESS,AVG_CHOKE_SIZE_P,Presión entre tubos,Apertura válvula (%),978,978,100.0,2014-01-12,2016-09-17,0.6871445233067419,False,Calculado
+15/9-F-15 D,Todos los días,AVG_ANNULUS_PRESS,AVG_WHP_P,Presión entre tubos,Presión en cabeza,978,978,100.0,2014-01-12,2016-09-17,0.017528166953483578,False,Calculado
+15/9-F-15 D,Todos los días,AVG_ANNULUS_PRESS,AVG_WHT_P,Presión entre tubos,Temperatura en cabeza,978,978,100.0,2014-01-12,2016-09-17,0.7093951104930847,False,Calculado
+15/9-F-15 D,Todos los días,AVG_ANNULUS_PRESS,DP_CHOKE_SIZE,Presión entre tubos,Diferencia presión válvula,978,978,100.0,2014-01-12,2016-09-17,-0.12217434531157695,False,Calculado
+15/9-F-15 D,Todos los días,AVG_ANNULUS_PRESS,BORE_GAS_VOL,Presión entre tubos,Gas producido,978,978,100.0,2014-01-12,2016-09-17,0.6671056061532816,False,Calculado
+15/9-F-15 D,Todos los días,AVG_ANNULUS_PRESS,BORE_WAT_VOL,Presión entre tubos,Agua producida,978,978,100.0,2014-01-12,2016-09-17,0.3372147186263096,False,Calculado
+15/9-F-15 D,Todos los días,AVG_CHOKE_SIZE_P,AVG_WHP_P,Apertura válvula (%),Presión en cabeza,978,978,100.0,2014-01-12,2016-09-17,-0.3522878234734526,False,Calculado
+15/9-F-15 D,Todos los días,AVG_CHOKE_SIZE_P,AVG_WHT_P,Apertura válvula (%),Temperatura en cabeza,978,978,100.0,2014-01-12,2016-09-17,0.7736050559504954,False,Calculado
+15/9-F-15 D,Todos los días,AVG_CHOKE_SIZE_P,DP_CHOKE_SIZE,Apertura válvula (%),Diferencia presión válvula,978,978,100.0,2014-01-12,2016-09-17,-0.4878515075585765,False,Calculado
+15/9-F-15 D,Todos los días,AVG_CHOKE_SIZE_P,BORE_GAS_VOL,Apertura válvula (%),Gas producido,978,978,100.0,2014-01-12,2016-09-17,0.5060384261439557,False,Calculado
+15/9-F-15 D,Todos los días,AVG_CHOKE_SIZE_P,BORE_WAT_VOL,Apertura válvula (%),Agua producida,978,978,100.0,2014-01-12,2016-09-17,0.5671991511604028,False,Calculado
+15/9-F-15 D,Todos los días,AVG_WHP_P,AVG_WHT_P,Presión en cabeza,Temperatura en cabeza,978,978,100.0,2014-01-12,2016-09-17,-0.24382998659369817,False,Calculado
+15/9-F-15 D,Todos los días,AVG_WHP_P,DP_CHOKE_SIZE,Presión en cabeza,Diferencia presión válvula,978,978,100.0,2014-01-12,2016-09-17,0.8272858306841975,False,Calculado
+15/9-F-15 D,Todos los días,AVG_WHP_P,BORE_GAS_VOL,Presión en cabeza,Gas producido,978,978,100.0,2014-01-12,2016-09-17,0.21159856222629495,False,Calculado
+15/9-F-15 D,Todos los días,AVG_WHP_P,BORE_WAT_VOL,Presión en cabeza,Agua producida,978,978,100.0,2014-01-12,2016-09-17,-0.5236442284690938,False,Calculado
+15/9-F-15 D,Todos los días,AVG_WHT_P,DP_CHOKE_SIZE,Temperatura en cabeza,Diferencia presión válvula,978,978,100.0,2014-01-12,2016-09-17,-0.37841192465758944,False,Calculado
+15/9-F-15 D,Todos los días,AVG_WHT_P,BORE_GAS_VOL,Temperatura en cabeza,Gas producido,978,978,100.0,2014-01-12,2016-09-17,0.5986754855610859,False,Calculado
+15/9-F-15 D,Todos los días,AVG_WHT_P,BORE_WAT_VOL,Temperatura en cabeza,Agua producida,978,978,100.0,2014-01-12,2016-09-17,0.6621543076177767,False,Calculado
+15/9-F-15 D,Todos los días,DP_CHOKE_SIZE,BORE_GAS_VOL,Diferencia presión válvula,Gas producido,978,978,100.0,2014-01-12,2016-09-17,0.056840580892449324,False,Calculado
+15/9-F-15 D,Todos los días,DP_CHOKE_SIZE,BORE_WAT_VOL,Diferencia presión válvula,Agua producida,978,978,100.0,2014-01-12,2016-09-17,-0.6599558887144937,False,Calculado
+15/9-F-15 D,Todos los días,BORE_GAS_VOL,BORE_WAT_VOL,Gas producido,Agua producida,978,978,100.0,2014-01-12,2016-09-17,0.1652018505446057,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_DOWNHOLE_PRESSURE,Horas,Presión de fondo,769,769,100.0,2014-01-16,2016-07-06,-0.23356378597193272,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_DOWNHOLE_TEMPERATURE,Horas,Temperatura de fondo,769,769,100.0,2014-01-16,2016-07-06,0.2767323537423217,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_DP_TUBING,Horas,Diferencia presión tubería,769,769,100.0,2014-01-16,2016-07-06,-0.04759335073733053,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_ANNULUS_PRESS,Horas,Presión entre tubos,769,769,100.0,2014-01-16,2016-07-06,0.25225445457550233,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_CHOKE_SIZE_P,Horas,Apertura válvula (%),769,769,100.0,2014-01-16,2016-07-06,0.22730636859964928,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_WHP_P,Horas,Presión en cabeza,769,769,100.0,2014-01-16,2016-07-06,-0.19242344357226943,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,ON_STREAM_HRS,AVG_WHT_P,Horas,Temperatura en cabeza,769,769,100.0,2014-01-16,2016-07-06,0.1946938027708672,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,ON_STREAM_HRS,DP_CHOKE_SIZE,Horas,Diferencia presión válvula,769,769,100.0,2014-01-16,2016-07-06,-0.18027554559122486,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,ON_STREAM_HRS,BORE_GAS_VOL,Horas,Gas producido,769,769,100.0,2014-01-16,2016-07-06,0.2305162216178272,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,ON_STREAM_HRS,BORE_WAT_VOL,Horas,Agua producida,769,769,100.0,2014-01-16,2016-07-06,0.12262365961910644,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_DOWNHOLE_TEMPERATURE,Presión de fondo,Temperatura de fondo,769,769,100.0,2014-01-16,2016-07-06,-0.3604887683283637,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_DP_TUBING,Presión de fondo,Diferencia presión tubería,769,769,100.0,2014-01-16,2016-07-06,0.6702455895583312,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_ANNULUS_PRESS,Presión de fondo,Presión entre tubos,769,769,100.0,2014-01-16,2016-07-06,-0.0742048079710538,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_CHOKE_SIZE_P,Presión de fondo,Apertura válvula (%),769,769,100.0,2014-01-16,2016-07-06,0.036245434426145445,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_WHP_P,Presión de fondo,Presión en cabeza,769,769,100.0,2014-01-16,2016-07-06,-0.11402131468286643,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,AVG_WHT_P,Presión de fondo,Temperatura en cabeza,769,769,100.0,2014-01-16,2016-07-06,0.3367916112589091,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,DP_CHOKE_SIZE,Presión de fondo,Diferencia presión válvula,769,769,100.0,2014-01-16,2016-07-06,-0.009957220646078594,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,BORE_GAS_VOL,Presión de fondo,Gas producido,769,769,100.0,2014-01-16,2016-07-06,0.08343039915981394,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DOWNHOLE_PRESSURE,BORE_WAT_VOL,Presión de fondo,Agua producida,769,769,100.0,2014-01-16,2016-07-06,0.4940042557191325,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_DP_TUBING,Temperatura de fondo,Diferencia presión tubería,769,769,100.0,2014-01-16,2016-07-06,-0.3845487047052972,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_ANNULUS_PRESS,Temperatura de fondo,Presión entre tubos,769,769,100.0,2014-01-16,2016-07-06,0.5440490551087301,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_CHOKE_SIZE_P,Temperatura de fondo,Apertura válvula (%),769,769,100.0,2014-01-16,2016-07-06,0.44351686385150063,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_WHP_P,Temperatura de fondo,Presión en cabeza,769,769,100.0,2014-01-16,2016-07-06,0.13937797334295154,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,AVG_WHT_P,Temperatura de fondo,Temperatura en cabeza,769,769,100.0,2014-01-16,2016-07-06,0.2241594025044848,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,DP_CHOKE_SIZE,Temperatura de fondo,Diferencia presión válvula,769,769,100.0,2014-01-16,2016-07-06,0.2406315832583002,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,BORE_GAS_VOL,Temperatura de fondo,Gas producido,769,769,100.0,2014-01-16,2016-07-06,0.32088265829250273,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DOWNHOLE_TEMPERATURE,BORE_WAT_VOL,Temperatura de fondo,Agua producida,769,769,100.0,2014-01-16,2016-07-06,-0.21059412156134735,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_ANNULUS_PRESS,Diferencia presión tubería,Presión entre tubos,769,769,100.0,2014-01-16,2016-07-06,-0.13512201897820209,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_CHOKE_SIZE_P,Diferencia presión tubería,Apertura válvula (%),769,769,100.0,2014-01-16,2016-07-06,0.27283631006603576,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_WHP_P,Diferencia presión tubería,Presión en cabeza,769,769,100.0,2014-01-16,2016-07-06,-0.6973882528640386,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DP_TUBING,AVG_WHT_P,Diferencia presión tubería,Temperatura en cabeza,769,769,100.0,2014-01-16,2016-07-06,0.49394083615194506,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DP_TUBING,DP_CHOKE_SIZE,Diferencia presión tubería,Diferencia presión válvula,769,769,100.0,2014-01-16,2016-07-06,-0.6044472974920676,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DP_TUBING,BORE_GAS_VOL,Diferencia presión tubería,Gas producido,769,769,100.0,2014-01-16,2016-07-06,-0.34263392667922343,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_DP_TUBING,BORE_WAT_VOL,Diferencia presión tubería,Agua producida,769,769,100.0,2014-01-16,2016-07-06,0.8947722951933886,True,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,AVG_CHOKE_SIZE_P,Presión entre tubos,Apertura válvula (%),769,769,100.0,2014-01-16,2016-07-06,0.4243404756653428,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,AVG_WHP_P,Presión entre tubos,Presión en cabeza,769,769,100.0,2014-01-16,2016-07-06,0.04038925364728058,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,AVG_WHT_P,Presión entre tubos,Temperatura en cabeza,769,769,100.0,2014-01-16,2016-07-06,0.4292120675153718,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,DP_CHOKE_SIZE,Presión entre tubos,Diferencia presión válvula,769,769,100.0,2014-01-16,2016-07-06,0.2090645587257316,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,BORE_GAS_VOL,Presión entre tubos,Gas producido,769,769,100.0,2014-01-16,2016-07-06,0.3458177187724864,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_ANNULUS_PRESS,BORE_WAT_VOL,Presión entre tubos,Agua producida,769,769,100.0,2014-01-16,2016-07-06,0.02710019753188822,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,AVG_WHP_P,Apertura válvula (%),Presión en cabeza,769,769,100.0,2014-01-16,2016-07-06,-0.5159333059476477,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,AVG_WHT_P,Apertura válvula (%),Temperatura en cabeza,769,769,100.0,2014-01-16,2016-07-06,0.5760183124915875,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,DP_CHOKE_SIZE,Apertura válvula (%),Diferencia presión válvula,769,769,100.0,2014-01-16,2016-07-06,-0.3506482367934021,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,BORE_GAS_VOL,Apertura válvula (%),Gas producido,769,769,100.0,2014-01-16,2016-07-06,0.022235035838640102,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_CHOKE_SIZE_P,BORE_WAT_VOL,Apertura válvula (%),Agua producida,769,769,100.0,2014-01-16,2016-07-06,0.39369043365508044,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_WHP_P,AVG_WHT_P,Presión en cabeza,Temperatura en cabeza,769,769,100.0,2014-01-16,2016-07-06,-0.4409862720700206,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_WHP_P,DP_CHOKE_SIZE,Presión en cabeza,Diferencia presión válvula,769,769,100.0,2014-01-16,2016-07-06,0.9020909894201331,True,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_WHP_P,BORE_GAS_VOL,Presión en cabeza,Gas producido,769,769,100.0,2014-01-16,2016-07-06,0.5506199332355995,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_WHP_P,BORE_WAT_VOL,Presión en cabeza,Agua producida,769,769,100.0,2014-01-16,2016-07-06,-0.7856576333698452,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_WHT_P,DP_CHOKE_SIZE,Temperatura en cabeza,Diferencia presión válvula,769,769,100.0,2014-01-16,2016-07-06,-0.2170253585058049,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_WHT_P,BORE_GAS_VOL,Temperatura en cabeza,Gas producido,769,769,100.0,2014-01-16,2016-07-06,0.19565792257856282,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,AVG_WHT_P,BORE_WAT_VOL,Temperatura en cabeza,Agua producida,769,769,100.0,2014-01-16,2016-07-06,0.5601022307766044,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,DP_CHOKE_SIZE,BORE_GAS_VOL,Diferencia presión válvula,Gas producido,769,769,100.0,2014-01-16,2016-07-06,0.5984098521442789,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,DP_CHOKE_SIZE,BORE_WAT_VOL,Diferencia presión válvula,Agua producida,769,769,100.0,2014-01-16,2016-07-06,-0.6565058595971417,False,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,BORE_GAS_VOL,BORE_WAT_VOL,Gas producido,Agua producida,769,769,100.0,2014-01-16,2016-07-06,-0.28126941196109734,False,Calculado

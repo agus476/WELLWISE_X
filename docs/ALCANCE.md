@@ -1,6 +1,6 @@
 # WELLWISE X alcance y plan de trabajo
 
-Revisión del 13 de octubre de 2026. Este documento define la idea vigente para el proyecto final de EnergIA Digital Data Science. El trabajo todavía está en exploración: las hipótesis y las técnicas previstas no son resultados obtenidos.
+Propuesta del 13 de octubre de 2026; estado actualizado al 21 de octubre de 2026. Este documento define la idea vigente para el proyecto final de EnergIA Digital Data Science. Hay un primer experimento supervisado; la evaluación de confianza y clustering sigue pendiente.
 
 ## La idea en una frase
 
@@ -23,7 +23,7 @@ La aplicación de esta pregunta a los datos disponibles constituye nuestro enfoq
 
 ## Datos y límites
 
-Usaremos los dos Excel de `data/raw/`: producción de Volve y diccionario. La hoja diaria tiene 15.634 registros de siete pozos; 9.161 son registros de producción correspondientes a seis pozos. Hay fechas ausentes, períodos con el pozo detenido y variables con cobertura diferente entre pozos. El horizonte de predicción, los pozos finales, la definición de caída y las reglas de tratamiento de esos casos se decidirán después del análisis exploratorio.
+Usamos los dos Excel de `data/raw/`: producción de Volve y diccionario. La hoja diaria tiene 15.634 registros de siete pozos; 9.161 son registros de producción correspondientes a seis pozos. El primer experimento usa cinco pozos exclusivamente productores, pronostica el petróleo del día t+7 al cierre de t y clasifica caída ≥20 % con petróleo(t)>0. Las reglas de calidad y exclusión están en el notebook 03 y su JSON; las unidades diarias siguen pendientes de confirmar.
 
 Una fecha faltante no equivale a un día con producción cero. Las variables explicativas deberán estar disponibles en el momento en que se hace el pronóstico. La prueba final usará fechas posteriores a entrenamiento y calibración. En una serie temporal, la cobertura teórica de un intervalo no se da por garantizada: se medirá con datos reservados.
 
@@ -31,9 +31,11 @@ Estos Excel no documentan de forma estructurada acciones de intervención, sus c
 
 ## Estado actual y próximos pasos
 
-**Hecho:** fuentes originales preservadas en `data/raw/` con inventario y controles iniciales; notebooks de revisión y exploración. El segundo notebook permite recorrer un pozo, pero sus conclusiones por pozo todavía deben completarse.
+**Hecho:** fuentes originales preservadas en `data/raw/` con inventario y controles iniciales; notebooks de revisión y exploración. El segundo selecciona los cinco pozos cuyo historial sólo registra producción (F-1 C, F-11, F-12, F-14 y F-15 D), guarda una copia exploratoria con auditoría y presenta curvas y asociaciones del mismo día con el volumen diario de petróleo. Excluye F-5 por su historial mixto y F-4 por inyección. Las asociaciones no prueban causalidad ni desempeño predictivo; faltan conclusiones por pozo.
 
-**Pendiente:** definir objetivo y horizonte, acordar criterios de calidad; preparar datos y variables; entrenar y evaluar regresión y clasificación; hacer clustering; analizar incertidumbre y cobertura; redactar resultados y preparar la presentación. Todavía no hay modelos entrenados ni un conjunto de datos preparados para modelos.
+**Primer experimento supervisado:** el notebook 03 prepara entradas y respuestas por fechas exactas, audita los casos apartados y reserva validación/prueba posteriores con purga de respuestas futuras. El 04 reúne regresión y clasificación: referencias, Ridge/logística y bosques, hiperparámetros ajustados en tres rondas temporales de entrenamiento y selección en validación. Evalúa por pozo y en conjunto; conserva resultados y predicciones. No incorpora validación al ajuste final ni cambia elecciones después de mirar prueba.
+
+**Pendiente:** revisar los errores y estabilidad del primer experimento, profundizar tratamiento de calidad/unidades; hacer clustering; analizar incertidumbre y cobertura; redactar resultados y preparar la presentación. La exploración ya observó el historial completo y limita el carácter independiente de la prueba posterior.
 
 ## Orden de trabajo y entregables
 
@@ -46,4 +48,4 @@ Estos Excel no documentan de forma estructurada acciones de intervención, sus c
 
 El dashboard interactivo y las simulaciones económicas quedan como posibles extensiones. Una demostración clara con gráficos de casos reales alcanza para comunicar el resultado principal. El orden se ajustará a las fechas de preentrega de la comisión.
 
-**Siguiente decisión:** terminar el análisis exploratorio de los pozos candidatos y definir el objetivo, el horizonte y las reglas de calidad antes de guardar datos preparados. El repositorio refleja únicamente el trabajo efectivamente realizado.
+**Siguiente decisión:** revisar resultados de validación/prueba y errores por pozo, sin retocar la selección para mejorar el examen ya visto. Si se modifica el protocolo, documentarlo como nuevo experimento. Esta actualización de estado complementa la propuesta en Word, que no se modificó. Aún no hay recomendaciones operativas ni evaluación económica real.
