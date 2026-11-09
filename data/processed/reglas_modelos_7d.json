@@ -1,0 +1,100 @@
+{
+  "horizonte_dias": 7,
+  "umbral_caida": 0.2,
+  "momento": "Cierre de t; registros del día ya disponibles",
+  "objetivo_regresion": "Petróleo del día calendario t+7, no acumulado semanal",
+  "objetivo_clasificacion": "Petróleo(t)>0 y petróleo(t+7)<=0.8*petróleo(t); objetivo conocido/no negativo",
+  "unidad_petroleo": "Pendiente de confirmar",
+  "semilla": 42,
+  "fuente": "data/processed/produccion_exclusiva_preparada.csv",
+  "sha256_fuente": "4623de9f0e2756985311ae17747433f27686b81450a395de62e38d870ed05783",
+  "sha256_excel": "514d4e38763e09be7fbad12313429909b9799b1a6ec999bf5f36e0df1b6c9cae",
+  "sha256_ejemplos": "5449dca9d12602686af2f96a2162e656de80bb753928cd2f978bf518f875f4c4",
+  "inicio_validacion": "2014-08-30",
+  "inicio_prueba": "2015-09-05",
+  "fracciones_fechas": [
+    0.75,
+    0.125,
+    0.125
+  ],
+  "purga": "Respuesta de una partición anterior estrictamente antes del comienzo de la siguiente",
+  "grupos_numericos": {
+    "A_Historia": [
+      "PETROLEO_T",
+      "PETROLEO_LAG_1D",
+      "PETROLEO_LAG_7D",
+      "PETROLEO_MEDIA_7D",
+      "PETROLEO_STD_7D",
+      "DIAS_CON_PETROLEO_7D",
+      "PETROLEO_CAMBIO_7D"
+    ],
+    "B_Horas": [
+      "PETROLEO_T",
+      "PETROLEO_LAG_1D",
+      "PETROLEO_LAG_7D",
+      "PETROLEO_MEDIA_7D",
+      "PETROLEO_STD_7D",
+      "DIAS_CON_PETROLEO_7D",
+      "PETROLEO_CAMBIO_7D",
+      "ON_STREAM_HRS"
+    ],
+    "C_Presiones": [
+      "PETROLEO_T",
+      "PETROLEO_LAG_1D",
+      "PETROLEO_LAG_7D",
+      "PETROLEO_MEDIA_7D",
+      "PETROLEO_STD_7D",
+      "DIAS_CON_PETROLEO_7D",
+      "PETROLEO_CAMBIO_7D",
+      "ON_STREAM_HRS",
+      "AVG_WHP_P",
+      "DP_CHOKE_SIZE"
+    ],
+    "D_Sensores": [
+      "PETROLEO_T",
+      "PETROLEO_LAG_1D",
+      "PETROLEO_LAG_7D",
+      "PETROLEO_MEDIA_7D",
+      "PETROLEO_STD_7D",
+      "DIAS_CON_PETROLEO_7D",
+      "PETROLEO_CAMBIO_7D",
+      "ON_STREAM_HRS",
+      "AVG_WHP_P",
+      "DP_CHOKE_SIZE",
+      "AVG_DOWNHOLE_PRESSURE",
+      "AVG_DOWNHOLE_TEMPERATURE",
+      "AVG_DP_TUBING",
+      "AVG_CHOKE_SIZE_P"
+    ],
+    "E_Gas_agua": [
+      "PETROLEO_T",
+      "PETROLEO_LAG_1D",
+      "PETROLEO_LAG_7D",
+      "PETROLEO_MEDIA_7D",
+      "PETROLEO_STD_7D",
+      "DIAS_CON_PETROLEO_7D",
+      "PETROLEO_CAMBIO_7D",
+      "ON_STREAM_HRS",
+      "AVG_WHP_P",
+      "DP_CHOKE_SIZE",
+      "AVG_DOWNHOLE_PRESSURE",
+      "AVG_DOWNHOLE_TEMPERATURE",
+      "AVG_DP_TUBING",
+      "AVG_CHOKE_SIZE_P",
+      "BORE_GAS_VOL",
+      "BORE_WAT_VOL"
+    ]
+  },
+  "categoricas": [
+    "NPD_WELL_BORE_NAME"
+  ],
+  "calidad": "Excluir partida y objetivo marcados; petróleo histórico marcado a faltante; volúmenes negativos a faltante; sin imputar respuestas",
+  "ventana": "Últimos 7 días calendario incluyendo t; media/std con al menos un dato y conteo explícito; std poblacional",
+  "limitaciones": [
+    "Sensores cero y unidades pendientes",
+    "Registros supuestos disponibles al cierre del día",
+    "Historial completo ya explorado; prueba no totalmente ajena al AED",
+    "Clasificación excluye partidas sin petróleo positivo",
+    "Sin inferencia causal ni intervenciones"
+  ]
+}

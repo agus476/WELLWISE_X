@@ -1,0 +1,111 @@
+Pozo,Muestra,Variable,Pares,Días de la muestra,Cobertura de pares (%),Desde,Hasta,Pearson,Spearman,Estado
+15/9-F-1 C,Todos los días,Horas operativas (h),745,746,99.87,2014-04-07,2016-04-21,0.7701083990844753,0.9021480675461111,Calculado
+15/9-F-1 C,Todos los días,Presión promedio de fondo,743,746,99.6,2014-04-07,2016-04-21,-0.5251296541144386,-0.7128788100249531,Calculado
+15/9-F-1 C,Todos los días,Temperatura promedio de fondo,743,746,99.6,2014-04-07,2016-04-21,0.4205723352221593,0.7588011495875511,Calculado
+15/9-F-1 C,Todos los días,Diferencia de presión promedio en la tubería,743,746,99.6,2014-04-07,2016-04-21,-0.3352852015998482,-0.22988706024878927,Calculado
+15/9-F-1 C,Todos los días,Presión promedio del espacio anular,17,746,2.28,2014-04-07,2016-04-21,,,Pocos pares o variable constante
+15/9-F-1 C,Todos los días,Apertura promedio de la válvula de restricción,746,746,100.0,2014-04-07,2016-04-21,0.732723224121467,0.7244234748791871,Calculado
+15/9-F-1 C,Todos los días,Presión promedio en cabeza de pozo,746,746,100.0,2014-04-07,2016-04-21,-0.11651383526963743,-0.14337117913405373,Calculado
+15/9-F-1 C,Todos los días,Temperatura promedio en cabeza de pozo,746,746,100.0,2014-04-07,2016-04-21,0.6999940425040662,0.7303710597274354,Calculado
+15/9-F-1 C,Todos los días,Diferencia de presión en la válvula de restricción,746,746,100.0,2014-04-07,2016-04-21,-0.2872988070083071,-0.31100870874860825,Calculado
+15/9-F-1 C,Todos los días,Volumen de gas (unidad pendiente),746,746,100.0,2014-04-07,2016-04-21,0.9959436180078353,0.9988557947596666,Calculado
+15/9-F-1 C,Todos los días,Volumen de agua producida (unidad pendiente),746,746,100.0,2014-04-07,2016-04-21,0.2770712037795682,0.6278276712189725,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,Horas operativas (h),437,437,100.0,2014-04-21,2016-04-06,0.3876527983627874,0.4382991806672208,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,Presión promedio de fondo,437,437,100.0,2014-04-21,2016-04-06,-0.28236714034206956,-0.4193099170176147,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,Temperatura promedio de fondo,437,437,100.0,2014-04-21,2016-04-06,0.23220639370679338,0.057107120238088976,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,Diferencia de presión promedio en la tubería,437,437,100.0,2014-04-21,2016-04-06,-0.7193519114137139,-0.7792608286404691,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,Presión promedio del espacio anular,2,437,0.46,2014-04-21,2014-04-22,,,Pocos pares o variable constante
+15/9-F-1 C,Con horas operativas válidas > 0,Apertura promedio de la válvula de restricción,437,437,100.0,2014-04-21,2016-04-06,0.21535059284869104,-0.14005905114526396,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,Presión promedio en cabeza de pozo,437,437,100.0,2014-04-21,2016-04-06,0.7135166194052461,0.6628514297209637,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,Temperatura promedio en cabeza de pozo,437,437,100.0,2014-04-21,2016-04-06,0.09126077601774754,-0.08704365462140196,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,Diferencia de presión en la válvula de restricción,437,437,100.0,2014-04-21,2016-04-06,0.6280915475538204,0.4635834990998157,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,Volumen de gas (unidad pendiente),437,437,100.0,2014-04-21,2016-04-06,0.9918125017350126,0.9947643034230795,Calculado
+15/9-F-1 C,Con horas operativas válidas > 0,Volumen de agua producida (unidad pendiente),437,437,100.0,2014-04-21,2016-04-06,-0.3809384285604176,-0.3567364014903511,Calculado
+15/9-F-11,Todos los días,Horas operativas (h),1163,1165,99.83,2013-07-08,2016-09-17,0.5680680774266017,0.4577454421104176,Calculado
+15/9-F-11,Todos los días,Presión promedio de fondo,1159,1165,99.48,2013-07-08,2016-09-17,-0.17798946582743125,-0.45801600615540683,Calculado
+15/9-F-11,Todos los días,Temperatura promedio de fondo,1159,1165,99.48,2013-07-08,2016-09-17,0.2952365992632872,0.5649502186575394,Calculado
+15/9-F-11,Todos los días,Diferencia de presión promedio en la tubería,1159,1165,99.48,2013-07-08,2016-09-17,-0.3277265738796392,-0.5210067284192146,Calculado
+15/9-F-11,Todos los días,Presión promedio del espacio anular,1159,1165,99.48,2013-07-08,2016-09-17,0.16146699886899019,0.035932302899165616,Calculado
+15/9-F-11,Todos los días,Apertura promedio de la válvula de restricción,1163,1165,99.83,2013-07-08,2016-09-17,-0.23419805539704677,0.04922066532930656,Calculado
+15/9-F-11,Todos los días,Presión promedio en cabeza de pozo,1159,1165,99.48,2013-07-08,2016-09-17,0.20213194341425428,0.28761339909976774,Calculado
+15/9-F-11,Todos los días,Temperatura promedio en cabeza de pozo,1159,1165,99.48,2013-07-08,2016-09-17,0.39099770552002727,-0.002775555233231403,Calculado
+15/9-F-11,Todos los días,Diferencia de presión en la válvula de restricción,1159,1165,99.48,2013-07-08,2016-09-17,0.09729791192843477,0.27614688023157885,Calculado
+15/9-F-11,Todos los días,Volumen de gas (unidad pendiente),1165,1165,100.0,2013-07-08,2016-09-17,0.99506292148741,0.9902683511408161,Calculado
+15/9-F-11,Todos los días,Volumen de agua producida (unidad pendiente),1165,1165,100.0,2013-07-08,2016-09-17,-0.1844567255259542,-0.05102346151642322,Calculado
+15/9-F-11,Con horas operativas válidas > 0,Horas operativas (h),1120,1120,100.0,2013-07-24,2016-09-17,0.4136619267906917,0.3549146951420296,Calculado
+15/9-F-11,Con horas operativas válidas > 0,Presión promedio de fondo,1117,1120,99.73,2013-07-24,2016-09-17,-0.435596501296544,-0.4742229006499648,Calculado
+15/9-F-11,Con horas operativas válidas > 0,Temperatura promedio de fondo,1117,1120,99.73,2013-07-24,2016-09-17,0.17398597987700837,0.5191035978352623,Calculado
+15/9-F-11,Con horas operativas válidas > 0,Diferencia de presión promedio en la tubería,1117,1120,99.73,2013-07-24,2016-09-17,-0.5580132407123322,-0.5454374988681386,Calculado
+15/9-F-11,Con horas operativas válidas > 0,Presión promedio del espacio anular,1117,1120,99.73,2013-07-24,2016-09-17,-0.05179262230438386,-0.06522181610142695,Calculado
+15/9-F-11,Con horas operativas válidas > 0,Apertura promedio de la válvula de restricción,1120,1120,100.0,2013-07-24,2016-09-17,-0.3481738805814475,-0.056557357020781567,Calculado
+15/9-F-11,Con horas operativas válidas > 0,Presión promedio en cabeza de pozo,1117,1120,99.73,2013-07-24,2016-09-17,0.13863041031126333,0.2648291657713572,Calculado
+15/9-F-11,Con horas operativas válidas > 0,Temperatura promedio en cabeza de pozo,1117,1120,99.73,2013-07-24,2016-09-17,0.14870716376670914,-0.11139792439022228,Calculado
+15/9-F-11,Con horas operativas válidas > 0,Diferencia de presión en la válvula de restricción,1117,1120,99.73,2013-07-24,2016-09-17,0.09547821619822354,0.25983587991607887,Calculado
+15/9-F-11,Con horas operativas válidas > 0,Volumen de gas (unidad pendiente),1120,1120,100.0,2013-07-24,2016-09-17,0.994178369634711,0.9891527099560085,Calculado
+15/9-F-11,Con horas operativas válidas > 0,Volumen de agua producida (unidad pendiente),1120,1120,100.0,2013-07-24,2016-09-17,-0.3020593603805746,-0.17119333886914112,Calculado
+15/9-F-12,Todos los días,Horas operativas (h),3051,3056,99.84,2008-02-12,2016-09-17,0.2970252094060235,0.3883015701841056,Calculado
+15/9-F-12,Todos los días,Presión promedio de fondo,3050,3056,99.8,2008-02-12,2016-09-17,0.8209323370304596,0.6751821459172759,Calculado
+15/9-F-12,Todos los días,Temperatura promedio de fondo,3050,3056,99.8,2008-02-12,2016-09-17,0.8511596710549466,0.7311940622889145,Calculado
+15/9-F-12,Todos los días,Diferencia de presión promedio en la tubería,3050,3056,99.8,2008-02-12,2016-09-17,0.7804814693485345,0.7346885448298734,Calculado
+15/9-F-12,Todos los días,Presión promedio del espacio anular,3043,3056,99.57,2008-02-12,2016-09-17,0.07711017198853108,0.14156773778042236,Calculado
+15/9-F-12,Todos los días,Apertura promedio de la válvula de restricción,3012,3056,98.56,2008-02-12,2016-09-17,-0.21017068253158722,-0.22120344117137464,Calculado
+15/9-F-12,Todos los días,Presión promedio en cabeza de pozo,3056,3056,100.0,2008-02-12,2016-09-17,0.535154615438748,0.6744615641702921,Calculado
+15/9-F-12,Todos los días,Temperatura promedio en cabeza de pozo,3056,3056,100.0,2008-02-12,2016-09-17,0.148273258593831,0.020075629556615605,Calculado
+15/9-F-12,Todos los días,Diferencia de presión en la válvula de restricción,3056,3056,100.0,2008-02-12,2016-09-17,0.4372177607703659,0.6369806456541164,Calculado
+15/9-F-12,Todos los días,Volumen de gas (unidad pendiente),3056,3056,100.0,2008-02-12,2016-09-17,0.998626545302464,0.9980376699101882,Calculado
+15/9-F-12,Todos los días,Volumen de agua producida (unidad pendiente),3056,3056,100.0,2008-02-12,2016-09-17,-0.44632671936024876,-0.22909728154618025,Calculado
+15/9-F-12,Con horas operativas válidas > 0,Horas operativas (h),2833,2833,100.0,2008-02-12,2016-08-12,0.16609105922857142,0.1435753361310635,Calculado
+15/9-F-12,Con horas operativas válidas > 0,Presión promedio de fondo,2827,2833,99.79,2008-02-12,2016-08-12,0.847848737913862,0.7327846636984249,Calculado
+15/9-F-12,Con horas operativas válidas > 0,Temperatura promedio de fondo,2827,2833,99.79,2008-02-12,2016-08-12,0.8722369557503059,0.7643064532060662,Calculado
+15/9-F-12,Con horas operativas válidas > 0,Diferencia de presión promedio en la tubería,2827,2833,99.79,2008-02-12,2016-08-12,0.8440448520626188,0.8229944028247608,Calculado
+15/9-F-12,Con horas operativas válidas > 0,Presión promedio del espacio anular,2820,2833,99.54,2008-02-12,2016-08-12,-0.07423947473229349,-0.02760966972082866,Calculado
+15/9-F-12,Con horas operativas válidas > 0,Apertura promedio de la válvula de restricción,2833,2833,100.0,2008-02-12,2016-08-12,-0.4043315350008204,-0.4606125323750087,Calculado
+15/9-F-12,Con horas operativas válidas > 0,Presión promedio en cabeza de pozo,2833,2833,100.0,2008-02-12,2016-08-12,0.7055253531564414,0.8046419284278992,Calculado
+15/9-F-12,Con horas operativas válidas > 0,Temperatura promedio en cabeza de pozo,2833,2833,100.0,2008-02-12,2016-08-12,-0.21350652245494792,-0.22185275828426057,Calculado
+15/9-F-12,Con horas operativas válidas > 0,Diferencia de presión en la válvula de restricción,2833,2833,100.0,2008-02-12,2016-08-12,0.6642463168619028,0.7901248815406134,Calculado
+15/9-F-12,Con horas operativas válidas > 0,Volumen de gas (unidad pendiente),2833,2833,100.0,2008-02-12,2016-08-12,0.9985628921512342,0.9975510943444368,Calculado
+15/9-F-12,Con horas operativas válidas > 0,Volumen de agua producida (unidad pendiente),2833,2833,100.0,2008-02-12,2016-08-12,-0.5717426638570438,-0.5213120983131021,Calculado
+15/9-F-14,Todos los días,Horas operativas (h),3051,3056,99.84,2008-02-12,2016-09-17,0.3793905112495199,0.4594288654884839,Calculado
+15/9-F-14,Todos los días,Presión promedio de fondo,3050,3056,99.8,2008-02-12,2016-09-17,0.06690506281180761,-0.4666527889436715,Calculado
+15/9-F-14,Todos los días,Temperatura promedio de fondo,3050,3056,99.8,2008-02-12,2016-09-17,0.3102840132485067,0.8840357494618474,Calculado
+15/9-F-14,Todos los días,Diferencia de presión promedio en la tubería,3050,3056,99.8,2008-02-12,2016-09-17,-0.1767212611201832,-0.5284434786413866,Calculado
+15/9-F-14,Todos los días,Presión promedio del espacio anular,2533,3056,82.89,2008-02-12,2016-09-17,-0.49328339241917896,-0.33824381533324205,Calculado
+15/9-F-14,Todos los días,Apertura promedio de la válvula de restricción,2860,3056,93.59,2008-03-30,2016-09-17,-0.380466393335473,-0.3266659543228274,Calculado
+15/9-F-14,Todos los días,Presión promedio en cabeza de pozo,3056,3056,100.0,2008-02-12,2016-09-17,0.652818404012604,0.8008121065764761,Calculado
+15/9-F-14,Todos los días,Temperatura promedio en cabeza de pozo,3056,3056,100.0,2008-02-12,2016-09-17,0.2905545270435571,0.20713369134693058,Calculado
+15/9-F-14,Todos los días,Diferencia de presión en la válvula de restricción,3056,3056,100.0,2008-02-12,2016-09-17,0.46773178014714245,0.5805597989535471,Calculado
+15/9-F-14,Todos los días,Volumen de gas (unidad pendiente),3056,3056,100.0,2008-02-12,2016-09-17,0.998292232546256,0.9992259865712462,Calculado
+15/9-F-14,Todos los días,Volumen de agua producida (unidad pendiente),3056,3056,100.0,2008-02-12,2016-09-17,-0.2786726662428263,0.05168215390630357,Calculado
+15/9-F-14,Con horas operativas válidas > 0,Horas operativas (h),2719,2719,100.0,2008-07-13,2016-07-13,0.16333534472709008,0.10436576511022065,Calculado
+15/9-F-14,Con horas operativas válidas > 0,Presión promedio de fondo,2713,2719,99.78,2008-07-13,2016-07-13,-0.4044538326874386,-0.7373549033612955,Calculado
+15/9-F-14,Con horas operativas válidas > 0,Temperatura promedio de fondo,2713,2719,99.78,2008-07-13,2016-07-13,0.20081544488983696,0.8639928903214983,Calculado
+15/9-F-14,Con horas operativas válidas > 0,Diferencia de presión promedio en la tubería,2713,2719,99.78,2008-07-13,2016-07-13,-0.7917319685376244,-0.8997016058079002,Calculado
+15/9-F-14,Con horas operativas válidas > 0,Presión promedio del espacio anular,2221,2719,81.68,2008-07-13,2016-07-13,-0.7018871875784729,-0.5837126222276079,Calculado
+15/9-F-14,Con horas operativas válidas > 0,Apertura promedio de la válvula de restricción,2719,2719,100.0,2008-07-13,2016-07-13,-0.5870705117593953,-0.5418534169352736,Calculado
+15/9-F-14,Con horas operativas válidas > 0,Presión promedio en cabeza de pozo,2719,2719,100.0,2008-07-13,2016-07-13,0.767852032568693,0.868969103698649,Calculado
+15/9-F-14,Con horas operativas válidas > 0,Temperatura promedio en cabeza de pozo,2719,2719,100.0,2008-07-13,2016-07-13,-0.2197842848447934,-0.11708952755323684,Calculado
+15/9-F-14,Con horas operativas válidas > 0,Diferencia de presión en la válvula de restricción,2719,2719,100.0,2008-07-13,2016-07-13,0.7345922352062781,0.8252783734922718,Calculado
+15/9-F-14,Con horas operativas válidas > 0,Volumen de gas (unidad pendiente),2719,2719,100.0,2008-07-13,2016-07-13,0.9981319918780774,0.9989137728314149,Calculado
+15/9-F-14,Con horas operativas válidas > 0,Volumen de agua producida (unidad pendiente),2719,2719,100.0,2008-07-13,2016-07-13,-0.6043101998456748,-0.33542741273265914,Calculado
+15/9-F-15 D,Todos los días,Horas operativas (h),978,978,100.0,2014-01-12,2016-09-17,0.8405864366387163,0.711938275571719,Calculado
+15/9-F-15 D,Todos los días,Presión promedio de fondo,978,978,100.0,2014-01-12,2016-09-17,-0.7200249399459392,-0.48299705874810883,Calculado
+15/9-F-15 D,Todos los días,Temperatura promedio de fondo,978,978,100.0,2014-01-12,2016-09-17,0.5976562619583783,0.6742310276638204,Calculado
+15/9-F-15 D,Todos los días,Diferencia de presión promedio en la tubería,978,978,100.0,2014-01-12,2016-09-17,-0.562636261274152,-0.555598396021697,Calculado
+15/9-F-15 D,Todos los días,Presión promedio del espacio anular,978,978,100.0,2014-01-12,2016-09-17,0.7434091935816911,0.6615332569258049,Calculado
+15/9-F-15 D,Todos los días,Apertura promedio de la válvula de restricción,978,978,100.0,2014-01-12,2016-09-17,0.4825018071942328,0.49399791497663054,Calculado
+15/9-F-15 D,Todos los días,Presión promedio en cabeza de pozo,978,978,100.0,2014-01-12,2016-09-17,-0.15587922225030393,0.22987982402334656,Calculado
+15/9-F-15 D,Todos los días,Temperatura promedio en cabeza de pozo,978,978,100.0,2014-01-12,2016-09-17,0.6762770282081385,0.5794426557159372,Calculado
+15/9-F-15 D,Todos los días,Diferencia de presión en la válvula de restricción,978,978,100.0,2014-01-12,2016-09-17,-0.4627033417204043,0.07286192994260537,Calculado
+15/9-F-15 D,Todos los días,Volumen de gas (unidad pendiente),978,978,100.0,2014-01-12,2016-09-17,0.9953531340741446,0.9903973309455416,Calculado
+15/9-F-15 D,Todos los días,Volumen de agua producida (unidad pendiente),978,978,100.0,2014-01-12,2016-09-17,0.23599419524373272,0.1343005140487307,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,Horas operativas (h),769,769,100.0,2014-01-16,2016-07-06,0.37732692871002294,0.2376363524786714,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,Presión promedio de fondo,769,769,100.0,2014-01-16,2016-07-06,-0.0021776684766871253,0.04388268473815278,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,Temperatura promedio de fondo,769,769,100.0,2014-01-16,2016-07-06,0.27248745637271865,0.343789754855844,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,Diferencia de presión promedio en la tubería,769,769,100.0,2014-01-16,2016-07-06,-0.2813350100527808,-0.39112402857966794,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,Presión promedio del espacio anular,769,769,100.0,2014-01-16,2016-07-06,0.2718373932535221,0.3336822151093659,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,Apertura promedio de la válvula de restricción,769,769,100.0,2014-01-16,2016-07-06,-0.12543485472054441,-0.0025468967941499276,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,Presión promedio en cabeza de pozo,769,769,100.0,2014-01-16,2016-07-06,0.38422500015976974,0.5874458001377157,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,Temperatura promedio en cabeza de pozo,769,769,100.0,2014-01-16,2016-07-06,0.05177845214579626,0.15639894423505382,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,Diferencia de presión en la válvula de restricción,769,769,100.0,2014-01-16,2016-07-06,0.37187702764779945,0.6274598500529657,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,Volumen de gas (unidad pendiente),769,769,100.0,2014-01-16,2016-07-06,0.9863798017052766,0.9804455062480788,Calculado
+15/9-F-15 D,Con horas operativas válidas > 0,Volumen de agua producida (unidad pendiente),769,769,100.0,2014-01-16,2016-07-06,-0.04530172645577527,-0.3345377247027943,Calculado

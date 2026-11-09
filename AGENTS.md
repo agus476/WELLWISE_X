@@ -17,7 +17,6 @@ La etapa actual es revisión y exploración de datos. El usuario eligió un esqu
 - `data/raw/`: fuentes originales sin transformación, con inventario SHA-256. No sobrescribir ni limpiar estos archivos.
 - `notebooks/`: análisis en orden numérico, con celdas reproducibles y explicaciones en español.
 - `docs/`: contexto y continuidad del proyecto.
-- `reports/`: reportes HTML generados bajo demanda; no versionarlos ni crear la carpeta vacía por anticipación.
 - `requirements.txt`: dependencias necesarias. No añadir herramientas por anticipación.
 
 Usar rutas relativas a la raíz del proyecto y permitir ejecutar notebooks desde la raíz o desde `notebooks/`. No dejar copias de datasets en la raíz. Los archivos temporales de Excel (`~$*`) no son fuentes de datos; no manipularlos mientras la aplicación los esté usando.

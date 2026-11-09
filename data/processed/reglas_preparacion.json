@@ -1,0 +1,26 @@
+{
+  "fuente": "data\\raw\\Volve production data.xlsx",
+  "hoja": "Daily Production Data",
+  "sha256_fuente": "514d4e38763e09be7fbad12313429909b9799b1a6ec999bf5f36e0df1b6c9cae",
+  "objetivo_exploratorio": "BORE_OIL_VOL",
+  "unidad": "Pendiente de confirmar",
+  "horizonte": "Pendiente de definir",
+  "pozos": [
+    "15/9-F-1 C",
+    "15/9-F-11",
+    "15/9-F-12",
+    "15/9-F-14",
+    "15/9-F-15 D"
+  ],
+  "filas": 9001,
+  "celdas_anuladas": 13,
+  "seleccion": "Todo el historial del código NPD debe tener FLOW_KIND = production, sin flujos faltantes",
+  "limpieza": [
+    "No finitos numéricos a faltante",
+    "Horas fuera de [0,24] a faltante; criterio diario pendiente de confirmar",
+    "Volúmenes negativos, tipo WI y petróleo positivo con cero horas: marcar, sin eliminar filas",
+    "Conservar ceros, faltantes y atípicos; sin imputación ni creación de días"
+  ],
+  "trazabilidad": "FILA_EXCEL incluye encabezado; auditoría guarda valor anterior y regla",
+  "lectura_csv": "Usar dtype string para códigos NPD y parse_dates=['DATEPRD']; no es un dataset listo para modelar"
+}
